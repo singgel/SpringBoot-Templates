@@ -1,4 +1,4 @@
-package io.ymq.mybatis.dao.base;
+package com.hks.mybatis.dao.base;
 
 import java.util.List;
 

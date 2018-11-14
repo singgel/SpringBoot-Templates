@@ -1,4 +1,4 @@
-package io.ymq.elasticsearch.config;
+package com.hks.elasticsearch.config;
 
 
 import org.elasticsearch.client.Client;
@@ -21,7 +21,7 @@ import java.net.InetAddress;
  * @create 2017-11-01 17:19
  **/
 @Configuration
-@EnableElasticsearchRepositories(basePackages = "io.ymq.elasticsearch")
+@EnableElasticsearchRepositories(basePackages = "com.hks.elasticsearch")
 public class ElasticsearchConfig {
     /**
      * elk集群地址

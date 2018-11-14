@@ -1,4 +1,4 @@
-package io.ymq.mybatis.dao.base;
+package com.hks.mybatis.dao.base;
 
 /**
  * 描述: 基础工具方法

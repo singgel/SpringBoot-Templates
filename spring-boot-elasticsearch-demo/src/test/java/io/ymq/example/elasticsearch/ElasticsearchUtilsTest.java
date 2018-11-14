@@ -1,11 +1,11 @@
-package io.ymq.example.elasticsearch;
+package com.hks.example.elasticsearch;
 
 
 import com.alibaba.fastjson.JSONObject;
-import io.ymq.example.elasticsearch.run.Startup;
-import io.ymq.example.elasticsearch.utils.ElasticsearchUtils;
+import com.hks.example.elasticsearch.run.Startup;
+import com.hks.example.elasticsearch.utils.ElasticsearchUtils;
 
-import io.ymq.example.elasticsearch.utils.EsPage;
+import com.hks.example.elasticsearch.utils.EsPage;
 import org.apache.commons.lang3.time.DateUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;

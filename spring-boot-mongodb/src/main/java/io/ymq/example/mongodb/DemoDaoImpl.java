@@ -1,4 +1,4 @@
-package io.ymq.example.mongodb;
+package com.hks.example.mongodb;
 
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;

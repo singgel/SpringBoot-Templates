@@ -1,5 +1,5 @@
 
-package io.ymq.mybatis.po;
+package com.hks.mybatis.po;
 
 import java.io.Serializable;
 

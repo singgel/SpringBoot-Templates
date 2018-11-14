@@ -1,7 +1,7 @@
-package io.ymq.kafka.test;
+package com.hks.kafka.test;
 
-import io.ymq.kafka.MsgProducer;
-import io.ymq.kafka.run.Startup;
+import com.hks.kafka.MsgProducer;
+import com.hks.kafka.run.Startup;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,12 +1,12 @@
-package io.ymq.mybatis.test;
+package com.hks.mybatis.test;
 
 
 import com.alibaba.fastjson.JSONObject;
-import io.ymq.mybatis.dao.YmqOneBaseDao;
-import io.ymq.mybatis.dao.YmqTwoBaseDao;
-import io.ymq.mybatis.po.TestOnePo;
-import io.ymq.mybatis.po.TestTwoPo;
-import io.ymq.mybatis.run.Startup;
+import com.hks.mybatis.dao.YmqOneBaseDao;
+import com.hks.mybatis.dao.YmqTwoBaseDao;
+import com.hks.mybatis.po.TestOnePo;
+import com.hks.mybatis.po.TestTwoPo;
+import com.hks.mybatis.run.Startup;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;

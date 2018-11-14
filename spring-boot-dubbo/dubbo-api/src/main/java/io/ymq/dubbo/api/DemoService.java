@@ -1,4 +1,4 @@
-package io.ymq.dubbo.api;
+package com.hks.dubbo.api;
 
 /**
  * 描述: 定义服务接口

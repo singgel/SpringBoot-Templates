@@ -1,12 +1,12 @@
-package io.ymq.solr.test;
+package com.hks.solr.test;
 
 import com.alibaba.fastjson.JSONObject;
-import io.ymq.solr.YmqRepository;
-import io.ymq.solr.pagehelper.PageInfo;
-import io.ymq.solr.pagehelper.RowBounds;
-import io.ymq.solr.po.Ymq;
-import io.ymq.solr.run.Startup;
-import io.ymq.solr.utils.BaseSolr;
+import com.hks.solr.YmqRepository;
+import com.hks.solr.pagehelper.PageInfo;
+import com.hks.solr.pagehelper.RowBounds;
+import com.hks.solr.po.Ymq;
+import com.hks.solr.run.Startup;
+import com.hks.solr.utils.BaseSolr;
 import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.SolrServerException;
 import org.apache.solr.client.solrj.impl.CloudSolrClient;

@@ -1,4 +1,4 @@
-package io.ymq.rabbitmq.run;
+package com.hks.rabbitmq.run;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
  * @create: 2017/10/23 14:14
  */
 @SpringBootApplication
-@ComponentScan(value = {"io.ymq.rabbitmq"})
+@ComponentScan(value = {"com.hks.rabbitmq"})
 public class Startup {
 
     public static void main(String[] args) {

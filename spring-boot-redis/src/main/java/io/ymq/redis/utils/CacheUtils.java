@@ -1,4 +1,4 @@
-package io.ymq.redis.utils;
+package com.hks.redis.utils;
 
 
 import java.util.ArrayList;

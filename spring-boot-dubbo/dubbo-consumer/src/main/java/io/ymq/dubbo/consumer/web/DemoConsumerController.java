@@ -1,4 +1,4 @@
-package io.ymq.dubbo.consumer.web;
+package com.hks.dubbo.consumer.web;
 
 /**
  * 描述:
@@ -8,7 +8,7 @@ package io.ymq.dubbo.consumer.web;
  **/
 import com.alibaba.dubbo.config.annotation.Reference;
 
-import io.ymq.dubbo.api.DemoService;
+import com.hks.dubbo.api.DemoService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;

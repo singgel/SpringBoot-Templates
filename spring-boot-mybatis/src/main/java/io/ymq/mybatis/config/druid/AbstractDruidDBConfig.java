@@ -1,4 +1,4 @@
-package io.ymq.mybatis.config.druid;
+package com.hks.mybatis.config.druid;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.github.pagehelper.PageHelper;

@@ -1,4 +1,4 @@
-package io.ymq.swagger.model;
+package com.hks.swagger.model;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

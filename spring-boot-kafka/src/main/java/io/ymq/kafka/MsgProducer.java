@@ -1,4 +1,4 @@
-package io.ymq.kafka;
+package com.hks.kafka;
 
 
 import org.apache.kafka.clients.producer.RecordMetadata;

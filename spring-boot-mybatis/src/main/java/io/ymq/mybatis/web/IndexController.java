@@ -1,10 +1,10 @@
-package io.ymq.mybatis.web;
+package com.hks.mybatis.web;
 
 import com.alibaba.fastjson.JSONObject;
-import io.ymq.mybatis.dao.YmqOneBaseDao;
-import io.ymq.mybatis.dao.YmqTwoBaseDao;
-import io.ymq.mybatis.po.TestOnePo;
-import io.ymq.mybatis.po.TestTwoPo;
+import com.hks.mybatis.dao.YmqOneBaseDao;
+import com.hks.mybatis.dao.YmqTwoBaseDao;
+import com.hks.mybatis.po.TestOnePo;
+import com.hks.mybatis.po.TestTwoPo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

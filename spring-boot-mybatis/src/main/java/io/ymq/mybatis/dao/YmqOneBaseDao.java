@@ -1,6 +1,6 @@
-package io.ymq.mybatis.dao;
+package com.hks.mybatis.dao;
 
-import io.ymq.mybatis.dao.base.BaseDao;
+import com.hks.mybatis.dao.base.BaseDao;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.springframework.stereotype.Repository;
 

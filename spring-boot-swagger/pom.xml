@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.ymq.example</groupId>
+    <groupId>com.hks.example</groupId>
     <artifactId>spring-boot-swagger</artifactId>
     <packaging>jar</packaging>
 
@@ -109,7 +109,7 @@
                         <apiSource>
                             <springmvc>true</springmvc>
                             <locations>
-                                <location>io.ymq.swagger.controller</location>
+                                <location>com.hks.swagger.controller</location>
                             </locations>
                             <schemes>
                                 <scheme>http</scheme>

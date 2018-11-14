@@ -1,4 +1,4 @@
-package io.ymq.example.elasticsearch.config;
+package com.hks.example.elasticsearch.config;
 
 import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.settings.Settings;

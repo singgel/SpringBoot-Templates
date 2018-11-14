@@ -1,4 +1,4 @@
-package io.ymq.logback.config.annotation;
+package com.hks.logback.config.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

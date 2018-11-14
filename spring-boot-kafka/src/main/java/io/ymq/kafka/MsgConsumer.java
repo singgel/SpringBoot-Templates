@@ -1,4 +1,4 @@
-package io.ymq.kafka;
+package com.hks.kafka;
 
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;

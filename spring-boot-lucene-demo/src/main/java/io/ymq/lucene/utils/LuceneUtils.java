@@ -1,4 +1,4 @@
-package io.ymq.lucene.utils;
+package com.hks.lucene.utils;
 
 /**
  * 描述: Lucene工具类

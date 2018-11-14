@@ -1,4 +1,4 @@
-package io.ymq.example.elasticsearch.service;
+package com.hks.example.elasticsearch.service;
 
 /**
  * 描述:

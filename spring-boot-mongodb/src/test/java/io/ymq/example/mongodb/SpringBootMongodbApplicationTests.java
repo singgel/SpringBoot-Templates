@@ -1,4 +1,4 @@
-package io.ymq.example.mongodb;
+package com.hks.example.mongodb;
 
 import com.alibaba.fastjson.JSONObject;
 import org.junit.Test;

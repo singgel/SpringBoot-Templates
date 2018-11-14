@@ -1,6 +1,6 @@
-package io.ymq.redis.config;
+package com.hks.redis.config;
 
-import io.ymq.redis.utils.CacheUtils;
+import com.hks.redis.utils.CacheUtils;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 

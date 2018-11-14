@@ -1,4 +1,4 @@
-package io.ymq.rabbitmq.direct;
+package com.hks.rabbitmq.direct;
 
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;

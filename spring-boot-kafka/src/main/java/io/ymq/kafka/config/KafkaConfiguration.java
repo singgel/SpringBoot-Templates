@@ -1,4 +1,4 @@
-package io.ymq.kafka.config;
+package com.hks.kafka.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.annotation.EnableKafka;

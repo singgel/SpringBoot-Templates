@@ -1,6 +1,6 @@
-package io.ymq.logback.controller;
+package com.hks.logback.controller;
 
-import io.ymq.logback.config.annotation.Log;
+import com.hks.logback.config.annotation.Log;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;

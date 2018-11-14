@@ -1,7 +1,7 @@
-package io.ymq.mybatis.config;
+package com.hks.mybatis.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import io.ymq.mybatis.config.druid.AbstractDruidDBConfig;
+import com.hks.mybatis.config.druid.AbstractDruidDBConfig;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package io.ymq.example.rocketmq;
+package com.hks.example.rocketmq;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

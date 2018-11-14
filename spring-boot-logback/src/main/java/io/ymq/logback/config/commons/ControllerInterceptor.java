@@ -1,4 +1,4 @@
-package io.ymq.logback.config.commons;
+package com.hks.logback.config.commons;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

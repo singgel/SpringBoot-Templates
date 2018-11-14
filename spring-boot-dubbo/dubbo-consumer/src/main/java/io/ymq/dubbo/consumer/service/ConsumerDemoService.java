@@ -1,6 +1,6 @@
-package io.ymq.dubbo.consumer.service;
+package com.hks.dubbo.consumer.service;
 
-import io.ymq.dubbo.api.DemoService;
+import com.hks.dubbo.api.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

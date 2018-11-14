@@ -1,7 +1,7 @@
-package io.ymq.elasticsearch.service;
+package com.hks.elasticsearch.service;
 
-import io.ymq.elasticsearch.model.Book;
-import io.ymq.elasticsearch.repository.BookRepository;
+import com.hks.elasticsearch.model.Book;
+import com.hks.elasticsearch.repository.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

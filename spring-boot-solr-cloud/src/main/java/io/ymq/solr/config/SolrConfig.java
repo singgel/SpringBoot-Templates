@@ -1,4 +1,4 @@
-package io.ymq.solr.config;
+package com.hks.solr.config;
 
 import org.apache.solr.client.solrj.impl.CloudSolrClient;
 import org.springframework.beans.factory.annotation.Value;
@@ -13,7 +13,7 @@ import org.springframework.data.solr.repository.config.EnableSolrRepositories;
  * @create 2017-10-18 18:15
  **/
 @Configuration
-@EnableSolrRepositories(basePackages = {"io.ymq.solr"}, multicoreSupport = true)
+@EnableSolrRepositories(basePackages = {"com.hks.solr"}, multicoreSupport = true)
 public class SolrConfig {
 
     @Value("${spring.data.solr.zk-host}")

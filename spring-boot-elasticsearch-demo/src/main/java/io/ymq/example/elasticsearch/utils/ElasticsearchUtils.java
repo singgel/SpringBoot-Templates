@@ -1,4 +1,4 @@
-package io.ymq.example.elasticsearch.utils;
+package com.hks.example.elasticsearch.utils;
 
 
 import com.alibaba.fastjson.JSONObject;

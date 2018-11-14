@@ -1,4 +1,4 @@
-package io.ymq.mybatis.config.druid;
+package com.hks.mybatis.config.druid;
 
 
 import com.alibaba.druid.support.http.StatViewServlet;
@@ -67,7 +67,7 @@ public class DruidMonitConfig {
     @Bean
     public JdkRegexpMethodPointcut druidStatPointcut() {
         JdkRegexpMethodPointcut druidStatPointcut = new JdkRegexpMethodPointcut();
-        String patterns = "io.ymq.mybatis*";
+        String patterns = "com.hks.mybatis*";
         druidStatPointcut.setPatterns(patterns);
         return druidStatPointcut;
     }

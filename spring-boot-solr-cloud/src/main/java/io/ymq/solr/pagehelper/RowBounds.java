@@ -1,5 +1,5 @@
 
-package io.ymq.solr.pagehelper;
+package com.hks.solr.pagehelper;
 
 /**
  * @author Clinton Begin

@@ -1,6 +1,6 @@
-package io.ymq.elasticsearch.repository;
+package com.hks.elasticsearch.repository;
 
-import io.ymq.elasticsearch.model.Book;
+import com.hks.elasticsearch.model.Book;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;

@@ -1,4 +1,4 @@
-package io.ymq.example.rocketmq;
+package com.hks.example.rocketmq;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

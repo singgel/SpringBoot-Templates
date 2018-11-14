@@ -1,4 +1,4 @@
-package io.ymq.example.rocketmq;
+package com.hks.example.rocketmq;
 
 import java.util.Arrays;
 import java.util.Collections;

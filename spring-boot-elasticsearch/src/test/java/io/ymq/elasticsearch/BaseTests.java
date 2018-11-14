@@ -1,8 +1,8 @@
-package io.ymq.elasticsearch;
+package com.hks.elasticsearch;
 
-import io.ymq.elasticsearch.model.Book;
-import io.ymq.elasticsearch.run.Startup;
-import io.ymq.elasticsearch.service.BookService;
+import com.hks.elasticsearch.model.Book;
+import com.hks.elasticsearch.run.Startup;
+import com.hks.elasticsearch.service.BookService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package io.ymq.redis.config;
+package com.hks.redis.config;
 
 
 import org.slf4j.Logger;

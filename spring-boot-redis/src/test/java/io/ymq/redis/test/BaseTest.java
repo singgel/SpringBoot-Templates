@@ -1,11 +1,11 @@
-package io.ymq.redis.test;
+package com.hks.redis.test;
 
 
-import io.ymq.redis.utils.CacheUtils;
+import com.hks.redis.utils.CacheUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
-import io.ymq.redis.run.Application;
+import com.hks.redis.run.Application;
 import org.springframework.test.context.junit4.SpringRunner;
 
 /**

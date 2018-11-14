@@ -1,7 +1,7 @@
-package io.ymq.elasticsearch.run;
+package com.hks.elasticsearch.run;
 
-import io.ymq.elasticsearch.model.Book;
-import io.ymq.elasticsearch.service.BookService;
+import com.hks.elasticsearch.model.Book;
+import com.hks.elasticsearch.service.BookService;
 import org.elasticsearch.client.Client;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -16,7 +16,7 @@ import org.springframework.data.elasticsearch.core.ElasticsearchOperations;
 import java.util.Map;
 
 @SpringBootApplication
-@ComponentScan(value = {"io.ymq.elasticsearch"})
+@ComponentScan(value = {"com.hks.elasticsearch"})
 public class Startup implements CommandLineRunner {
 
     public static void main(String[] args) {

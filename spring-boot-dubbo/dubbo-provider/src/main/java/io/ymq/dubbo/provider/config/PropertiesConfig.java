@@ -1,4 +1,4 @@
-package io.ymq.dubbo.provider.config;
+package com.hks.dubbo.provider.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;

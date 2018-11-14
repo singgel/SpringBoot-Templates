@@ -1,7 +1,7 @@
-package io.ymq.lucene;
+package com.hks.lucene;
 
 import com.chenlb.mmseg4j.analysis.ComplexAnalyzer;
-import io.ymq.lucene.utils.LuceneUtils;
+import com.hks.lucene.utils.LuceneUtils;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer;

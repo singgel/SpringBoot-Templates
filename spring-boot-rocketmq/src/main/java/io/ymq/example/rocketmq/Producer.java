@@ -1,4 +1,4 @@
-package io.ymq.example.rocketmq;
+package com.hks.example.rocketmq;
 
 import org.apache.rocketmq.client.producer.DefaultMQProducer;
 import org.apache.rocketmq.client.producer.SendResult;

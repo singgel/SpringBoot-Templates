@@ -1,4 +1,4 @@
-package io.ymq.swagger.config;
+package com.hks.swagger.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -24,7 +24,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("io.ymq.swagger.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.hks.swagger.controller"))
                 .paths(PathSelectors.any()).build();
     }
 

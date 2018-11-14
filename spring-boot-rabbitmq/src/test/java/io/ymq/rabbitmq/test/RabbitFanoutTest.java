@@ -1,6 +1,6 @@
-package io.ymq.rabbitmq.test;
+package com.hks.rabbitmq.test;
 
-import io.ymq.rabbitmq.run.Startup;
+import com.hks.rabbitmq.run.Startup;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.amqp.core.AmqpTemplate;

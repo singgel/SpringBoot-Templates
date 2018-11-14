@@ -1,4 +1,4 @@
-package io.ymq.dubbo.consumer.config;
+package com.hks.dubbo.consumer.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;

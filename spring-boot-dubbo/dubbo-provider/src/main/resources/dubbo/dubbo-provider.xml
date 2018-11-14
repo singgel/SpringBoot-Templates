@@ -6,7 +6,7 @@
         http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
     <!-- 声明需要暴露的服务接口 -->
-    <dubbo:service interface="io.ymq.dubbo.api.DemoService" ref="demoService"/>
+    <dubbo:service interface="com.hks.dubbo.api.DemoService" ref="demoService"/>
 
 </beans>
 

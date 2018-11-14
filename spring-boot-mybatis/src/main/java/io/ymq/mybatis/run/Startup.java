@@ -1,4 +1,4 @@
-package io.ymq.mybatis.run;
+package com.hks.mybatis.run;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
  * @create 2017-10-19 18:23
  **/
 @SpringBootApplication
-@ComponentScan(value = {"io.ymq.mybatis"})
+@ComponentScan(value = {"com.hks.mybatis"})
 public class Startup {
 
     public static void main(String[] args) {

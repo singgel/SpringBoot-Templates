@@ -1,7 +1,7 @@
-package io.ymq.dubbo.test;
+package com.hks.dubbo.test;
 
-import io.ymq.dubbo.consumer.run.Startup;
-import io.ymq.dubbo.consumer.service.ConsumerDemoService;
+import com.hks.dubbo.consumer.run.Startup;
+import com.hks.dubbo.consumer.service.ConsumerDemoService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

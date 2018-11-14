@@ -1,6 +1,6 @@
-package io.ymq.solr;
+package com.hks.solr;
 
-import io.ymq.solr.po.Ymq;
+import com.hks.solr.po.Ymq;
 import org.springframework.data.solr.repository.SolrCrudRepository;
 
 import org.springframework.data.solr.repository.Query;

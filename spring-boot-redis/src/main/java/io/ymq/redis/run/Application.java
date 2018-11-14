@@ -1,4 +1,4 @@
-package io.ymq.redis.run;
+package com.hks.redis.run;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -14,7 +14,7 @@ import java.net.ServerSocket;
  * @create 2017-10-16 13:19
  **/
 @SpringBootApplication
-@ComponentScan(value = {"io.ymq.redis"})
+@ComponentScan(value = {"com.hks.redis"})
 public class Application {
 
     public static void main(String[] args) throws IOException {

@@ -1,4 +1,4 @@
-package io.ymq.solr.po;
+package com.hks.solr.po;
 
 
 import org.apache.solr.client.solrj.beans.Field;

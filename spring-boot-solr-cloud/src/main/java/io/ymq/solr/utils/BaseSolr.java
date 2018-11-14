@@ -1,9 +1,9 @@
-package io.ymq.solr.utils;
+package com.hks.solr.utils;
 
 
-import io.ymq.solr.pagehelper.PageInfo;
-import io.ymq.solr.pagehelper.PageInfoFacet;
-import io.ymq.solr.pagehelper.RowBounds;
+import com.hks.solr.pagehelper.PageInfo;
+import com.hks.solr.pagehelper.PageInfoFacet;
+import com.hks.solr.pagehelper.RowBounds;
 import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.SolrServerException;
 

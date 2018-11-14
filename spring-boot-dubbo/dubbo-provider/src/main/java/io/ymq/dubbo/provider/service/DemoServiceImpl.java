@@ -1,7 +1,7 @@
-package io.ymq.dubbo.provider.service;
+package com.hks.dubbo.provider.service;
 
 import com.alibaba.dubbo.rpc.RpcContext;
-import io.ymq.dubbo.api.DemoService;
+import com.hks.dubbo.api.DemoService;
 import org.springframework.stereotype.Service;
 
 import java.text.SimpleDateFormat;

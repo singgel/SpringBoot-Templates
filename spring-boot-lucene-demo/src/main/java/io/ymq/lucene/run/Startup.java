@@ -1,4 +1,4 @@
-package io.ymq.lucene.run;
+package com.hks.lucene.run;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
  * @create: 2017/11/7 17:02
  */
 @SpringBootApplication
-@ComponentScan(value = {"io.ymq.lucene"})
+@ComponentScan(value = {"com.hks.lucene"})
 public class Startup {
 
     public static void main(String[] args) {

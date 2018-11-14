@@ -1,10 +1,10 @@
-package io.ymq.swagger.controller;
+package com.hks.swagger.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
-import io.ymq.swagger.model.User;
+import com.hks.swagger.model.User;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.*;

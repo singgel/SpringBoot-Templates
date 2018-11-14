@@ -8,6 +8,6 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
     <!-- 增加引用远程服务配置 可以和本地bean一样使用demoService -->
-    <dubbo:reference id="demoService" check="false" interface="io.ymq.dubbo.api.DemoService"/>
+    <dubbo:reference id="demoService" check="false" interface="com.hks.dubbo.api.DemoService"/>
 
 </beans>

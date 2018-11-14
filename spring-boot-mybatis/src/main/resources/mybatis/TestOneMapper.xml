@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="io.ymq.mybatis.po.TestOnePo">
-	<resultMap id="BaseResultMap" type="io.ymq.mybatis.po.TestOnePo">
+<mapper namespace="com.hks.mybatis.po.TestOnePo">
+	<resultMap id="BaseResultMap" type="com.hks.mybatis.po.TestOnePo">
 		<id column="id" property="id" />
 		<result column="name" property="name" />
 		<result column="remark" property="remark" />
@@ -46,7 +46,7 @@
 
 
 
-	<insert id="insert" parameterType="io.ymq.mybatis.po.TestOnePo" useGeneratedKeys="true" keyProperty="id">
+	<insert id="insert" parameterType="com.hks.mybatis.po.TestOnePo" useGeneratedKeys="true" keyProperty="id">
 		insert into
 		<include refid="Table_Name" />
 		<trim prefix="(" suffix=")" suffixOverrides=",">
@@ -96,7 +96,7 @@
 	    </foreach>
 	 </insert>
 
-	<update id="update" parameterType="io.ymq.mybatis.po.TestOnePo">
+	<update id="update" parameterType="com.hks.mybatis.po.TestOnePo">
 		update
 		<include refid="Table_Name" />
 		<set>
@@ -114,7 +114,7 @@
 			      id=#{id}
 	</update>
 
-	<update id="updateByEntity" parameterType="io.ymq.mybatis.po.TestOnePo">
+	<update id="updateByEntity" parameterType="com.hks.mybatis.po.TestOnePo">
 		UPDATE
 		<include refid="Table_Name" />
 		<set>
@@ -142,7 +142,7 @@
 		</where>
 	</update>
 
-	<delete id="delete" parameterType="io.ymq.mybatis.po.TestOnePo">
+	<delete id="delete" parameterType="com.hks.mybatis.po.TestOnePo">
 		delete from
 		<include refid="Table_Name" />
 		<where>
@@ -158,16 +158,16 @@
 		</where>
 	</select>
 
-	<select id="selectOne" parameterType="io.ymq.mybatis.po.TestOnePo" resultMap="BaseResultMap">
+	<select id="selectOne" parameterType="com.hks.mybatis.po.TestOnePo" resultMap="BaseResultMap">
 	  <include refid="Base_Select" />
 	</select>
 
-	<select id="selectList"  parameterType="io.ymq.mybatis.po.TestOnePo" resultMap="BaseResultMap">
+	<select id="selectList"  parameterType="com.hks.mybatis.po.TestOnePo" resultMap="BaseResultMap">
 	    <include refid="Base_Select" />
 	</select>
 		
 
-     <select id="selectForUpdate" parameterType="io.ymq.mybatis.po.TestOnePo" resultMap="BaseResultMap" useCache="false">
+     <select id="selectForUpdate" parameterType="com.hks.mybatis.po.TestOnePo" resultMap="BaseResultMap" useCache="false">
 		 <include refid="Base_Select" />
 		for update
 	</select>

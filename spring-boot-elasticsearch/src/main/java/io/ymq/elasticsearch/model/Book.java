@@ -1,4 +1,4 @@
-package io.ymq.elasticsearch.model;
+package com.hks.elasticsearch.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;

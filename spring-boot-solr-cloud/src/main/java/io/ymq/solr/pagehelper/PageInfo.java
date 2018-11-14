@@ -1,4 +1,4 @@
-package io.ymq.solr.pagehelper;
+package com.hks.solr.pagehelper;
 
 import java.io.Serializable;
 import java.util.Collection;
