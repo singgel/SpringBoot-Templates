@@ -1,4 +1,4 @@
-package com.souyunku.example;
+package com.hks.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

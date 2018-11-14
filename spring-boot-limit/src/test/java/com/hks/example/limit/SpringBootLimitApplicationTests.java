@@ -1,4 +1,4 @@
-package com.souyunku.example.limit;
+package com.hks.example.limit;
 
 
 import org.junit.Test;

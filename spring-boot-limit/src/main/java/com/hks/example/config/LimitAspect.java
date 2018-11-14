@@ -1,6 +1,6 @@
-package com.souyunku.example.config;
+package com.hks.example.config;
 
-import com.souyunku.example.annotation.RateLimit;
+import com.hks.example.annotation.RateLimit;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -39,7 +39,7 @@ public class LimitAspect {
     @Autowired
     private DefaultRedisScript<Number> redisluaScript;
 
-    @Around("execution(* com.souyunku.example.controller ..*(..) )")
+    @Around("execution(* com.hks.example.controller ..*(..) )")
     public Object interceptor(ProceedingJoinPoint joinPoint) throws Throwable {
 
         MethodSignature signature = (MethodSignature) joinPoint.getSignature();

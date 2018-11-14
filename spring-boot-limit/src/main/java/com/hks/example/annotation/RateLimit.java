@@ -1,4 +1,4 @@
-package com.souyunku.example.annotation;
+package com.hks.example.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

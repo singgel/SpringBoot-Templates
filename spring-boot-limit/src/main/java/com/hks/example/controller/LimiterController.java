@@ -1,6 +1,6 @@
-package com.souyunku.example.controller;
+package com.hks.example.controller;
 
-import com.souyunku.example.annotation.RateLimit;
+import com.hks.example.annotation.RateLimit;
 import org.apache.commons.lang3.time.DateFormatUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;

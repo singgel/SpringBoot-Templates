@@ -1,4 +1,4 @@
-package com.souyunku.example.config;
+package com.hks.example.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.core.io.ClassPathResource;
