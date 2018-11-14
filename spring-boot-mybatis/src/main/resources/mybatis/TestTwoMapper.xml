@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="io.ymq.mybatis.po.TestTwoPo">
+	<resultMap id="BaseResultMap" type="io.ymq.mybatis.po.TestTwoPo">
+		<id column="id" property="id" />
+		<result column="name" property="name" />
+		<result column="remark" property="remark" />
+	</resultMap>
+
+	<sql id="Table_Name">
+		test_two
+	</sql>
+
+	<sql id="Base_Column">
+		id,
+		name,
+		remark
+	</sql>
+
+	<sql id="Base_Where">
+		<trim suffixOverrides="AND">
+		<if test="id != null">
+			id= #{id}
+	           AND 
+		</if>
+		<if test="name != null">
+			name= #{name}
+	           AND 
+		</if>
+		<if test="remark != null">
+			remark= #{remark}
+		</if>
+		</trim>
+	</sql>
+	
+    <sql id="Base_Select">
+			select
+		<include refid="Base_Column" />
+		from
+		<include refid="Table_Name" />
+		<where>
+			<include refid="Base_Where" />
+		</where>
+	</sql>
+
+
+
+	<insert id="insert" parameterType="io.ymq.mybatis.po.TestTwoPo" useGeneratedKeys="true" keyProperty="id">
+		insert into
+		<include refid="Table_Name" />
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+	<if test="id != null">
+		id,
+	</if>
+	<if test="name != null">
+		name,
+	</if>
+	<if test="remark != null">
+		remark,
+	</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+	<if test="id != null">
+		#{id},
+	</if>
+	<if test="name != null">
+		#{name},
+	</if>
+	<if test="remark != null">
+		#{remark},
+	</if>
+		</trim>
+	</insert>
+	
+	<insert id="insertList" parameterType="java.util.List" >
+	    /*!mycat:catlet=demo.catlets.BatchInsertSequence */
+	    insert into 
+		<include refid="Table_Name" />
+			(	
+
+					name
+			           ,
+
+					remark
+			) 
+	    values
+	    <foreach collection="list" item="item" separator=",">
+			(	
+
+						#{item.name}
+				           ,
+
+						#{item.remark}
+			)
+	    </foreach>
+	 </insert>
+
+	<update id="update" parameterType="io.ymq.mybatis.po.TestTwoPo">
+		update
+		<include refid="Table_Name" />
+		<set>
+	<if test="id != null">
+		id=#{id},
+	</if>
+	<if test="name != null">
+		name=#{name},
+	</if>
+	<if test="remark != null">
+		remark=#{remark},
+	</if>
+		</set>
+		where 
+			      id=#{id}
+	</update>
+
+	<update id="updateByEntity" parameterType="io.ymq.mybatis.po.TestTwoPo">
+		UPDATE
+		<include refid="Table_Name" />
+		<set>
+			<if test="s.name != null">
+                    name=#{s.name},
+			</if>
+			<if test="s.remark != null">
+                    remark=#{s.remark}
+			</if>
+		</set>
+		<where> 
+			<trim prefix="(" suffix=")" suffixOverrides="AND">
+			<if test="w.id != null">
+                    id=#{w.id}
+	                   AND 
+ 			</if>
+			<if test="w.name != null">
+                    name=#{w.name}
+	                   AND 
+ 			</if>
+			<if test="w.remark != null">
+                    remark=#{w.remark}
+ 			</if>
+			</trim>
+		</where>
+	</update>
+
+	<delete id="delete" parameterType="io.ymq.mybatis.po.TestTwoPo">
+		delete from
+		<include refid="Table_Name" />
+		<where>
+			<include refid="Base_Where" />
+		</where>
+	</delete>
+
+	<select id="count" parameterType="java.util.Map" resultType="int">
+		select count(1) from
+		<include refid="Table_Name" />
+		<where>
+			<include refid="Base_Where" />
+		</where>
+	</select>
+
+	<select id="selectOne" parameterType="io.ymq.mybatis.po.TestTwoPo" resultMap="BaseResultMap">
+	  <include refid="Base_Select" />
+	</select>
+
+	<select id="selectList"  parameterType="io.ymq.mybatis.po.TestTwoPo" resultMap="BaseResultMap">
+	    <include refid="Base_Select" />
+	</select>
+		
+
+     <select id="selectForUpdate" parameterType="io.ymq.mybatis.po.TestTwoPo" resultMap="BaseResultMap" useCache="false">
+		 <include refid="Base_Select" />
+		for update
+	</select>
+	
+
+</mapper>

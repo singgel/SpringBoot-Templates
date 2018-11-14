@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 提供方应用信息，用于计算依赖关系 -->
+    <dubbo:application name="${spring.application.name}"  />
+
+    <!-- 使用multicast广播注册中心暴露服务地址 -->
+    <dubbo:registry protocol="zookeeper" address="${zookeeper.connect}"  file="${dubbo.cache}"/>
+
+    <!-- 用dubbo协议在20880端口暴露服务 -->
+    <dubbo:protocol name="dubbo" port="${dubbo.protocol.port}"  threadpool="${dubbo.protocol.threadpool}"  threads="${dubbo.protocol.threads}"/>
+
+    <!-- 提供方的缺省值，当ProtocolConfig和ServiceConfig某属性没有配置时，采用此缺省值，可选。-->
+    <dubbo:provider connections="${dubbo.provider.connections}" timeout="${dubbo.provider.timeout}" retries="${dubbo.provider.retries}" version="${dubbo.provider.version}" />
+
+    <!-- 消费方缺省配置，当ReferenceConfig某属性没有配置时，采用此缺省值，可选。-->
+    <dubbo:consumer version="${dubbo.provider.version}" />
+
+    <!-- 监控中心配置，用于配置连接监控中心相关信息，可选。-->
+    <dubbo:monitor protocol="registry"/>
+
+</beans>
