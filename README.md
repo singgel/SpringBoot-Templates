@@ -1,4 +1,4 @@
-# Spring Boot 学习教程，示例代码
+# Spring Boot 示例代码
 
 **spring-boot-limit**
 [	Spring Boot 中使用 分布式应用限流实践]
