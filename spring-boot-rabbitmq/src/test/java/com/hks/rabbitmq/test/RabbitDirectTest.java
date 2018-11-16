@@ -1,6 +1,6 @@
 package com.hks.rabbitmq.test;
 
-import com.hks.rabbitmq.run.Startup;
+import com.hks.rabbitmq.run.RabbitApplication;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.amqp.core.AmqpTemplate;
@@ -11,11 +11,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 /**
  * 描述: 默认的交换机模式
  *
- * @author: yanpenglei
+ * @author: hekuangsheng
  * @create: 2017/10/25 1:03
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = Startup.class)
+@SpringBootTest(classes = RabbitApplication.class)
 public class RabbitDirectTest {
 
     @Autowired

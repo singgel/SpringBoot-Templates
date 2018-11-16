@@ -7,14 +7,14 @@ import org.springframework.context.annotation.ComponentScan;
 /**
  * 描述: 启动服务
  *
- * @author: yanpenglei
+ * @author: hekuangsheng
  * @create: 2017/10/23 14:14
  */
 @SpringBootApplication
 @ComponentScan(value = {"com.hks.rabbitmq"})
-public class Startup {
+public class RabbitApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Startup.class, args);
+        SpringApplication.run(RabbitApplication.class, args);
     }
 }
