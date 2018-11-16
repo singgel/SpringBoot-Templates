@@ -1,7 +1,6 @@
 package com.hks.lucene;
 
 import com.chenlb.mmseg4j.analysis.ComplexAnalyzer;
-import com.hks.lucene.utils.LuceneUtils;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer;
@@ -25,13 +24,12 @@ import org.wltea.analyzer.lucene.IKAnalyzer;
 
 import java.io.IOException;
 import java.io.StringReader;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 
 /**
  * 描述: 单元测试
  *
- * @author yanpenglei
+ * @author hekuangsheng
  * @create 2017-11-07 17:59
  **/
 public class BaseTest {
