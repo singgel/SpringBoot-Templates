@@ -1,10 +1,10 @@
 {
     "swagger": "2.0",
     "info": {
-        "description": "更多 Spring Boot 相关文章 http://www.ymq.io",
+        "description": "更多 Spring Boot 相关文章 https://blog.csdn.net/singgel/",
         "version": "V1.0",
         "title": "Spring Boot 中使用 Swagger2构建 RESTfulAPI 文档",
-        "termsOfService": "http://www.ymq.io"
+        "termsOfService": "https://blog.csdn.net/singgel/"
     },
     "host": "127.0.0.1:8080",
     "basePath": "/",

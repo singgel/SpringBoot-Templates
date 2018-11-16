@@ -12,7 +12,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * 描述: 开始 swagger2
- * @author: yanpenglei
+ * @author: hekuangsheng
  * @create: 2017/10/26 16:07 
  */
 @Configuration
@@ -31,8 +31,8 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("Spring Boot 中使用 Swagger2构建 RESTfulAPI 文档")
-                .description("更多 Spring Boot 相关文章 http://www.ymq.io")
-                .termsOfServiceUrl("http://www.ymq.io")
+                .description("更多 Spring Boot 相关文章 https://blog.csdn.net/singgel/")
+                .termsOfServiceUrl("https://blog.csdn.net/singgel/")
                 .version("V1.0")
                 .build();
     }

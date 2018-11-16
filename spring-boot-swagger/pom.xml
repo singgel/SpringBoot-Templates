@@ -117,8 +117,8 @@
                             <info>
                                 <title>Spring Boot 中使用 Swagger2构建 RESTful API 文档</title>
                                 <version>V1</version>
-                                <description>更多 Spring Boot 相关文章 http://www.ymq.io</description>
-                                <termsOfService>http://www.ymq.io</termsOfService>
+                                <description>更多 Spring Boot 相关文章 https://blog.csdn.net/singgel/</description>
+                                <termsOfService>https://blog.csdn.net/singgel/</termsOfService>
                             </info>
 
                             <swaggerDirectory>${basedir}/src/main/resources/static/swagger/</swaggerDirectory>
