@@ -1,6 +1,6 @@
-package com.souyunku.example.springboot.rabbitmq.ack.producer;
+package com.hks.example.springboot.rabbitmq.ack.producer;
 
-import com.souyunku.example.springboot.rabbitmq.ack.receiver.HelloReceiver;
+import com.hks.example.springboot.rabbitmq.ack.receiver.HelloReceiver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.core.Message;

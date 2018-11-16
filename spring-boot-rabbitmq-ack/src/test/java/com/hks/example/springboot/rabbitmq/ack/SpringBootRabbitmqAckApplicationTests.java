@@ -1,4 +1,4 @@
-package com.souyunku.example.springboot.rabbitmq.ack;
+package com.hks.example.springboot.rabbitmq.ack;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

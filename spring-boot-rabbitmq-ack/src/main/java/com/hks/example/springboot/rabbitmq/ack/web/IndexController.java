@@ -1,6 +1,6 @@
-package com.souyunku.example.springboot.rabbitmq.ack.web;
+package com.hks.example.springboot.rabbitmq.ack.web;
 
-import com.souyunku.example.springboot.rabbitmq.ack.producer.HelloSender;
+import com.hks.example.springboot.rabbitmq.ack.producer.HelloSender;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

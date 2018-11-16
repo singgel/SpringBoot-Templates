@@ -1,4 +1,4 @@
-package com.souyunku.example.springboot.rabbitmq.ack;
+package com.hks.example.springboot.rabbitmq.ack;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.souyunku.example.springboot.rabbitmq.ack.receiver;
+package com.hks.example.springboot.rabbitmq.ack.receiver;
 
 
 import com.rabbitmq.client.Channel;

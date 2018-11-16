@@ -1,4 +1,4 @@
-package com.souyunku.example.springboot.rabbitmq.ack.config;
+package com.hks.example.springboot.rabbitmq.ack.config;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;
