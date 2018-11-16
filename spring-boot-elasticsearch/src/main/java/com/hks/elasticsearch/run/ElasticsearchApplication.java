@@ -17,10 +17,10 @@ import java.util.Map;
 
 @SpringBootApplication
 @ComponentScan(value = {"com.hks.elasticsearch"})
-public class Startup implements CommandLineRunner {
+public class ElasticsearchApplication implements CommandLineRunner {
 
     public static void main(String[] args) {
-        SpringApplication.run(Startup.class, args);
+        SpringApplication.run(ElasticsearchApplication.class, args);
     }
 
     @Autowired

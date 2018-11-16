@@ -1,7 +1,7 @@
 package com.hks.elasticsearch;
 
 import com.hks.elasticsearch.model.Book;
-import com.hks.elasticsearch.run.Startup;
+import com.hks.elasticsearch.run.ElasticsearchApplication;
 import com.hks.elasticsearch.service.BookService;
 import org.junit.Before;
 import org.junit.Test;
@@ -23,7 +23,7 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = Startup.class)
+@SpringBootTest(classes = ElasticsearchApplication.class)
 public class BaseTests  {
 
 
