@@ -1,6 +1,6 @@
 package com.hks.dubbo.test;
 
-import com.hks.dubbo.consumer.run.Startup;
+import com.hks.dubbo.consumer.run.DubboConsumerApplication;
 import com.hks.dubbo.consumer.service.ConsumerDemoService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,7 +15,7 @@ import org.springframework.test.context.junit4.SpringRunner;
  * @create 2017-10-27 14:15
  **/
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = Startup.class)
+@SpringBootTest(classes = DubboConsumerApplication.class)
 public class ConsumerTest {
 
     @Autowired

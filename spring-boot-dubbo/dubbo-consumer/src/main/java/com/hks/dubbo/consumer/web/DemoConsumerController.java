@@ -6,7 +6,6 @@ package com.hks.dubbo.consumer.web;
  * @author yanpenglei
  * @create 2018-07-25 17:25
  **/
-import com.alibaba.dubbo.config.annotation.Reference;
 
 import com.hks.dubbo.api.DemoService;
 import org.springframework.web.bind.annotation.RequestMapping;
