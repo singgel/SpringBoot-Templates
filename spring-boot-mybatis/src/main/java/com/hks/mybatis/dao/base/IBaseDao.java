@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * 描述: IBaseDao
- * author: yanpenglei
+ * author: hekuangsheng
  * Date: 2017/9/8 19:50
  */
 public interface IBaseDao {

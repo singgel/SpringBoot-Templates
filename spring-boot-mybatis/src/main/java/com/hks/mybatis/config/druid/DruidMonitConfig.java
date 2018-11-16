@@ -18,7 +18,7 @@ import javax.annotation.Resource;
 
 /**
  * 描述: druid监控配置
- * author: yanpenglei
+ * author: hekuangsheng
  * Date: 2017/10/20 11:00
  */
 @EnableConfigurationProperties(DruidDbProperties.class)

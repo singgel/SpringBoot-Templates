@@ -15,7 +15,7 @@ import java.sql.SQLException;
 
 /**
  * 描述: 核心配置，配置数据源 事物 sqlSessionFactorYmqOne
- * author: yanpenglei
+ * author: hekuangsheng
  * Date: 2017/9/8 18:21
  */
 @Configuration

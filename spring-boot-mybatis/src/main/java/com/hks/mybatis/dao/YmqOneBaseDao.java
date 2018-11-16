@@ -7,16 +7,16 @@ import org.springframework.stereotype.Repository;
 import javax.annotation.Resource;
 
 /**
- * 描述:数据源 two
+ * 描述:数据源 one
  *
- * @author yanpenglei
+ * @author hekuangsheng
  * @create 2017-10-20 11:27
  **/
 @Repository
-public class YmqTwoBaseDao extends BaseDao {
+public class YmqOneBaseDao extends BaseDao {
 
     @Resource
-    public void setSqlSessionFactorYmqTwo(SqlSessionFactory sqlSessionFactory) {
+    public void setSqlSessionFactorYmqOne(SqlSessionFactory sqlSessionFactory) {
         super.setSqlSessionFactory(sqlSessionFactory);
     }
 }

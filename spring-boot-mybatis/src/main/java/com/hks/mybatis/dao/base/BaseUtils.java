@@ -2,7 +2,7 @@ package com.hks.mybatis.dao.base;
 
 /**
  * 描述: 基础工具方法
- * author: yanpenglei
+ * author: hekuangsheng
  * Date: 2017/9/8 21:13
  */
 public class BaseUtils {

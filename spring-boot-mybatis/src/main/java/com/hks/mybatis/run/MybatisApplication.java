@@ -7,14 +7,14 @@ import org.springframework.context.annotation.ComponentScan;
 /**
  * 描述: 启动服务
  *
- * @author yanpenglei
+ * @author hekuangsheng
  * @create 2017-10-19 18:23
  **/
 @SpringBootApplication
 @ComponentScan(value = {"com.hks.mybatis"})
-public class Startup {
+public class MybatisApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Startup.class, args);
+        SpringApplication.run(MybatisApplication.class, args);
     }
 }
