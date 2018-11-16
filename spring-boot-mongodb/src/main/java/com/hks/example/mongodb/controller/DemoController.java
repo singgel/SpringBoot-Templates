@@ -21,6 +21,7 @@ public class DemoController {
     public String add(String name){
         try{
             DemoEntity demoEntity = new DemoEntity();
+            demoEntity.setId(1000000L);
             demoEntity.setTitle(name);
             demoEntity.setDescription(name);
             demoEntity.setUrl("www.baidu.com");
