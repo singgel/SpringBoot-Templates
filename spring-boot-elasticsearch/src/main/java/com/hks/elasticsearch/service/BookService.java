@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 描述:
  *
- * @author yanpenglei
+ * @author hekuangsheng
  * @create 2017-11-02 14:48
  **/
 public interface BookService {
