@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * 描述: 继承 SolrCrudRepository
  *
- * @author yanpenglei
+ * @author hekuangsheng
  * @create 2017-10-18 10:34
  **/
 public interface YmqRepository extends SolrCrudRepository<Ymq, String> {

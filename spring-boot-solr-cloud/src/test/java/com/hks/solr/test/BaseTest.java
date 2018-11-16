@@ -5,7 +5,7 @@ import com.hks.solr.YmqRepository;
 import com.hks.solr.pagehelper.PageInfo;
 import com.hks.solr.pagehelper.RowBounds;
 import com.hks.solr.po.Ymq;
-import com.hks.solr.run.Startup;
+import com.hks.solr.run.SolrApplication;
 import com.hks.solr.utils.BaseSolr;
 import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.SolrServerException;
@@ -25,11 +25,11 @@ import java.util.List;
 /**
  * 描述: 测试 solr cloud
  *
- * @author yanpenglei
+ * @author hekuangsheng
  * @create 2017-10-17 19:00
  **/
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = Startup.class)
+@SpringBootTest(classes = SolrApplication.class)
 public class BaseTest {
 
     @Autowired

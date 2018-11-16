@@ -2,7 +2,7 @@
 package com.hks.solr.pagehelper;
 
 /**
- * @author Clinton Begin
+ * @author hekuangsheng
  */
 public class RowBounds {
 

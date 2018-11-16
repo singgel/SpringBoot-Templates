@@ -28,7 +28,7 @@ import java.util.List;
 
 /**
  * 描述: CloudSolrClient 工具类
- * author: yanpenglei
+ * author: hekuangsheng
  * Date: 2017/10/19 11:24
  */
 @Component

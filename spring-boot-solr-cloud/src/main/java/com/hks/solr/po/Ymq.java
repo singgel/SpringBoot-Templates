@@ -10,7 +10,7 @@ import java.io.Serializable;
 /**
  * 描述: 映射的实体类必须有@ID主键
  *
- * @author yanpenglei
+ * @author hekuangsheng
  * @create 2017-10-17 18:28
  **/
 @SolrDocument(solrCoreName = "test_collection")
