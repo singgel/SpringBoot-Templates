@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * 描述: 启动服务
  *
- * @author: yanpenglei
+ * @author: hekuangsheng
  * @create: 2018/2/5 13:52
  */
 @SpringBootApplication

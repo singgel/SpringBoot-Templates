@@ -1,5 +1,7 @@
-package com.hks.example.mongodb;
+package com.hks.example.mongodb.dao.impl;
 
+import com.hks.example.mongodb.pojo.DemoEntity;
+import com.hks.example.mongodb.dao.DemoDao;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
@@ -11,7 +13,7 @@ import javax.annotation.Resource;
 /**
  * 描述: Demo DAO 实现
  *
- * @author yanpenglei
+ * @author hekuangsheng
  * @create 2018-02-03 16:57
  **/
 @Component
