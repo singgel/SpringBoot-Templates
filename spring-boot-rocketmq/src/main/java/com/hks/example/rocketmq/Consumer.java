@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * 描述: 消息消费者
  *
- * @author yanpenglei
+ * @author hekuangsheng
  * @create 2018-02-01 18:11
  **/
 @Component
