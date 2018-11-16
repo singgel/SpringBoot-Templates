@@ -10,15 +10,13 @@ import org.aspectj.lang.annotation.Pointcut;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.slf4j.MDC;
 import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Method;
-import java.util.UUID;
 
 
 /**
- * Created by junbaor on 2017/5/12.
+ * Created by hekuangsheng on 2017/5/12.
  */
 @Aspect
 @Component

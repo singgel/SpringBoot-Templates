@@ -7,14 +7,14 @@ import org.springframework.context.annotation.ComponentScan;
 /**
  * 描述:
  *
- * @author yanpenglei
+ * @author hekuangsheng
  * @create 2017-10-30 14:15
  **/
 @SpringBootApplication
 @ComponentScan(value = {"com.hks.logback"})
-public class Startup {
+public class LogbackApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Startup.class, args);
+        SpringApplication.run(LogbackApplication.class, args);
     }
 }

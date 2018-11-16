@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 /**
  * 描述:
  *
- * @author yanpenglei
+ * @author hekuangsheng
  * @create 2017-10-30 14:20
  **/
 @RestController
@@ -20,7 +20,7 @@ public class IndexController {
     private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 
     /**
-     * http://127.0.0.1:8080/index/?content="我是测试内容"
+     * http://127.0.0.1:8090/index/?content="我是测试内容"
      *
      * @param content
      * @return
