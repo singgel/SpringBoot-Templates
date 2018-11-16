@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 /**
  * 描述: 消费远程方法
  *
- * @author yanpenglei
+ * @author hekuangsheng
  * @create 2017-10-27 13:22
  **/
 @Service("consumerDemoService")
