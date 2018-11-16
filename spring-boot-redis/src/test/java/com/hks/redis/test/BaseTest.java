@@ -5,17 +5,17 @@ import com.hks.redis.utils.CacheUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
-import com.hks.redis.run.Application;
+import com.hks.redis.run.RedisApplication;
 import org.springframework.test.context.junit4.SpringRunner;
 
 /**
  * 描述:测试类
  *
- * @author yanpenglei
+ * @author hekuangsheng
  * @create 2017-10-16 13:18
  **/
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = Application.class)
+@SpringBootTest(classes = RedisApplication.class)
 public class BaseTest {
 
     @Test

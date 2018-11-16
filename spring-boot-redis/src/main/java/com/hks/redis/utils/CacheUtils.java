@@ -11,7 +11,6 @@ import javax.annotation.PostConstruct;
 import javax.annotation.Resource;
 
 import org.springframework.data.redis.connection.RedisZSetCommands;
-import org.springframework.data.redis.connection.RedisZSetCommands.Tuple;
 import org.springframework.data.redis.core.ListOperations;
 import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -23,7 +22,7 @@ import com.alibaba.fastjson.parser.Feature;
 
 /**
  * 描述: 操作redis 工具类
- * author: yanpenglei
+ * author: hekuangsheng
  * Date: 2017/10/13 15:01
  */
 public class CacheUtils {

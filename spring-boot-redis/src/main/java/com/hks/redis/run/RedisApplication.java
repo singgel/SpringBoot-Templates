@@ -10,15 +10,15 @@ import java.net.ServerSocket;
 /**
  * 描述: 启动服务
  *
- * @author yanpenglei
+ * @author hekuangsheng
  * @create 2017-10-16 13:19
  **/
 @SpringBootApplication
 @ComponentScan(value = {"com.hks.redis"})
-public class Application {
+public class RedisApplication {
 
     public static void main(String[] args) throws IOException {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(RedisApplication.class, args);
 
         while (true) {
             //为了简单起见，所有的异常信息都往外抛
