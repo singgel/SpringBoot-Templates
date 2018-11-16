@@ -1,7 +1,7 @@
 package com.hks.kafka.test;
 
 import com.hks.kafka.MsgProducer;
-import com.hks.kafka.run.Startup;
+import com.hks.kafka.run.KafkaApplication;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,11 +12,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 /**
  * 描述: 测试 kafka
  *
- * @author yanpenglei
+ * @author hekuangsheng
  * @create 2017-10-16 18:45
  **/
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = Startup.class)
+@SpringBootTest(classes = KafkaApplication.class)
 public class BaseTest {
 
     @Autowired

@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 /**
  * 描述:消息生产者
  *
- * @author yanpenglei
+ * @author hekuangsheng
  * @create 2017-10-16 18:28
  **/
 @Component
