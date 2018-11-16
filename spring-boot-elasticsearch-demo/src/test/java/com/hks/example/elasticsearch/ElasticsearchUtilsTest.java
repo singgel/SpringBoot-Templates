@@ -2,7 +2,7 @@ package com.hks.example.elasticsearch;
 
 
 import com.alibaba.fastjson.JSONObject;
-import com.hks.example.elasticsearch.run.Startup;
+import com.hks.example.elasticsearch.run.ElasticsearchDemoApplication;
 import com.hks.example.elasticsearch.utils.ElasticsearchUtils;
 
 import com.hks.example.elasticsearch.utils.EsPage;
@@ -22,7 +22,7 @@ import java.util.*;
  * 单元测试
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = Startup.class)
+@SpringBootTest(classes = ElasticsearchDemoApplication.class)
 public class ElasticsearchUtilsTest {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ElasticsearchUtilsTest.class);

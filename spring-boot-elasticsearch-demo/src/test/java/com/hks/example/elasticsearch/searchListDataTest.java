@@ -1,7 +1,7 @@
 package com.hks.example.elasticsearch;
 
 import com.alibaba.fastjson.JSONObject;
-import com.hks.example.elasticsearch.run.Startup;
+import com.hks.example.elasticsearch.run.ElasticsearchDemoApplication;
 import com.hks.example.elasticsearch.utils.ElasticsearchUtils;
 import org.apache.commons.lang3.time.DateUtils;
 import org.junit.runner.RunWith;
@@ -17,11 +17,11 @@ import org.junit.Test;
 /**
  * 描述:
  *
- * @author yanpenglei
+ * @author hekuangsheng
  * @create 2017-11-23 20:33
  **/
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = Startup.class)
+@SpringBootTest(classes = ElasticsearchDemoApplication.class)
 public class searchListDataTest {
 
     @Test

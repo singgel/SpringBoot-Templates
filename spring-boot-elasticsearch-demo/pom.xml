@@ -71,7 +71,7 @@
             <version>1.2.39</version>
         </dependency>
 
-    </dependencies>
+	</dependencies>
 
 	<build>
 		<plugins>

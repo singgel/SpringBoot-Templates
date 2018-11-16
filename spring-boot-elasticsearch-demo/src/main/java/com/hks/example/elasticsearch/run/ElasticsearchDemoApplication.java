@@ -9,9 +9,9 @@ import org.springframework.context.annotation.ComponentScan;
  */
 @SpringBootApplication
 @ComponentScan(value = {"com.hks.example.elasticsearch"})
-public class Startup {
+public class ElasticsearchDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Startup.class, args);
+		SpringApplication.run(ElasticsearchDemoApplication.class, args);
 	}
 }
