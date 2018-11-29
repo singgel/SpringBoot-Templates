@@ -1,4 +1,4 @@
-package com.hks.lucene.run;
+package com.hks.lucene;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,7 +11,6 @@ import org.springframework.context.annotation.ComponentScan;
  * @create: 2017/11/7 17:02
  */
 @SpringBootApplication
-@ComponentScan(value = {"com.hks.lucene"})
 public class LuceneApplication {
 
     public static void main(String[] args) {
