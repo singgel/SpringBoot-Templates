@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * 描述: 限流注解
  *
- * @author yanpenglei
+ * @author hekuangsheng
  * @create 2018-08-16 15:24
  **/
 @Target({ElementType.TYPE, ElementType.METHOD})
