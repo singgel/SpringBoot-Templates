@@ -1,3 +1,6 @@
+# springBoot的application.properties默认配置
+https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+
 # Spring Boot 示例代码
 
 [Spring Boot 中使用 分布式应用限流实践]
