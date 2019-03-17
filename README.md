@@ -31,6 +31,8 @@ https://docs.spring.io/spring-boot/docs/current/reference/html/common-applicatio
 
 [Spring Boot 中使用 Java API 调用 lucene]
 
+[Spring Boot 中使用 Application 实现 Shut down embedded servlet container gracefully]
+
 #### [CSDN的blog记录](https://blog.csdn.net/singgel/article/category/7574271)
 
 
