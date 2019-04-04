@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.hks</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>spring-boot-gracefulShutdown</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
+	<name>spring-boot-gracefulShutdown</name>
 	<description>GracefulShutdown project for Spring Boot</description>
 
 	<properties>
