@@ -1,0 +1,18 @@
+
+https://github.com/zbum/netty-spring-example
+
+1)mvn clean install
+
+2)mvn spring-boot:run
+
+3)open 2 command prompts and type the following
+  
+  telnet localhost 8090
+
+4)client1 can send the message to client2 by using his channel key
+
+  /0:0:0:0:0:0:0:1:57220::How are you ?
+  
+5)client2 can send the message to client1 by using his channel key
+
+  /0:0:0:0:0:0:0:1:57221::fine, thanks. How are you ?
