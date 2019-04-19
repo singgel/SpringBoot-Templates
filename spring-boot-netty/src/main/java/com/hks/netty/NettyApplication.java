@@ -2,6 +2,7 @@ package com.hks.netty;
 
 import com.hks.netty.config.NettyProperties;
 import com.hks.netty.server.ChannelRepository;
+import com.hks.netty.server.TCPServer;
 import com.hks.netty.server.handler.SomethingChannelInitializer;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelOption;
@@ -10,16 +11,27 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
+import org.springframework.context.annotation.PropertySource;
 
 import java.net.InetSocketAddress;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * Spring Java Configuration and Bootstrap
+ *
+ * @author Jibeom Jung
+ */
 @SpringBootApplication
 @EnableConfigurationProperties(NettyProperties.class)
 public class NettyApplication {
@@ -27,8 +39,11 @@ public class NettyApplication {
 	@Autowired
 	private NettyProperties nettyProperties;
 
-	public static void main(String[] args) {
-		SpringApplication.run(NettyApplication.class, args);
+	public static void main(String[] args) throws Exception{
+		ConfigurableApplicationContext context = SpringApplication.run(NettyApplication.class, args);
+		TCPServer tcpServer = context.getBean(TCPServer.class);
+		tcpServer.start();
+
 	}
 
 	@Bean(name = "serverBootstrap")
