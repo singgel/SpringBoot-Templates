@@ -14,7 +14,7 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 /**
- * @author jibumjung
+ * @author heks
  * @since
  */
 @RunWith(SpringRunner.class)

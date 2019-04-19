@@ -30,7 +30,7 @@ import org.springframework.stereotype.Component;
 /**
  * Channel Initializer
  *
- * @author Jibeom Jung
+ * @author heks
  */
 @Component
 @Qualifier("somethingChannelInitializer")

@@ -27,7 +27,7 @@ import org.springframework.util.Assert;
 /**
  * event handler to process receiving messages
  *
- * @author Jibeom Jung
+ * @author heks
  */
 @Component
 @Slf4j

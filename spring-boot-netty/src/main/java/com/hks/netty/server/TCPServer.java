@@ -29,7 +29,7 @@ import java.net.InetSocketAddress;
 /**
  * Main Server
  *
- * @author Jibeom Jung
+ * @author heks
  */
 @Getter
 @Setter

@@ -23,7 +23,7 @@ import java.util.concurrent.ConcurrentMap;
 /**
  * Channel Repository using HashMap
  *
- * @author Jibeom Jung
+ * @author heks
  */
 public class ChannelRepository {
     private ConcurrentMap<String, Channel> channelCache = new ConcurrentHashMap<String, Channel>();

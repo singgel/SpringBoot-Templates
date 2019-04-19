@@ -31,7 +31,7 @@ import static org.mockito.Mockito.when;
 /**
  * Test for  SomethingServerHandler.java
  *
- * @author Jibeom Jung
+ * @author heks
  */
 public class SomethingServerHandlerTest {
 
