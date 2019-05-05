@@ -1,0 +1,29 @@
+server:
+  servlet:
+    context-path: /example
+  tomcat:
+    uri-encoding: UTF-8
+
+spring:
+  application:
+    name: spring-boot-assembly
+
+  # 当前maven打包的profile
+  profiles:
+    active: @profileActive@
+
+  # UTF-8编码
+  http:
+    encoding:
+      enabled: true
+      force: true
+      charset: UTF-8
+
+hello: Hello spring-boot-assembly
+
+
+# mybatis公共配置
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
