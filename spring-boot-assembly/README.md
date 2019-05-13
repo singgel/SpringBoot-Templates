@@ -558,8 +558,8 @@ http://localhost:8080/example/hello?name=123
     
 #### maven项目打包
 ##### 1. 使用IDEA工具打包,选择对应的profiles,然后clean package
-![mvn-clean-package-local](https://github.com/singgel/SpringBoot-Templates/tree/master/spring-boot-assembly/master/img/mvn-clean-package-local.png)
-![mvn-clean-package-dev](https://github.com/singgel/SpringBoot-Templates/tree/master/spring-boot-assembly/master/img/mvn-clean-package-dev.png)
+![mvn-clean-package-local](https://github.com/singgel/SpringBoot-Templates/blob/master/spring-boot-assembly/img/mvn-clean-package-local.png)
+![mvn-clean-package-dev](https://github.com/singgel/SpringBoot-Templates/blob/master/spring-boot-assembly/img/mvn-clean-package-dev.png)
 
 ##### 2. 使用maven命令打包
 
