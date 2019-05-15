@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.1.4.RELEASE</version>
+		<version>1.5.11.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.hks</groupId>
 	<artifactId>exporter</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>exporter</name>
-	<description>Demo project for Spring Boot</description>
+	<name>spring-boot-prometheus-exporter</name>
+	<description>spring-boot-prometheus-exporter project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -22,6 +22,24 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.prometheus/simpleclient -->
+		<dependency>
+			<groupId>io.prometheus</groupId>
+			<artifactId>simpleclient</artifactId>
+			<version>0.6.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.prometheus/simpleclient_spring_boot -->
+		<dependency>
+			<groupId>io.prometheus</groupId>
+			<artifactId>simpleclient_spring_boot</artifactId>
+			<version>0.6.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.prometheus/simpleclient_hotspot -->
+		<dependency>
+			<groupId>io.prometheus</groupId>
+			<artifactId>simpleclient_hotspot</artifactId>
+			<version>0.6.0</version>
 		</dependency>
 
 		<dependency>

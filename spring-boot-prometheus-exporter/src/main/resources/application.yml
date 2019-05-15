@@ -1,0 +1,10 @@
+endpoints:
+  prometheus:
+    id: metrics
+  metrics:
+    id: springmetrics
+    sensitive: false
+    enabled: true
+
+server:
+  port: 8090
