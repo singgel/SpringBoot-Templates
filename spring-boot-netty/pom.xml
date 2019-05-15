@@ -11,7 +11,7 @@
 	<groupId>com.hks</groupId>
 	<artifactId>netty</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>netty</name>
+	<name>spring-boot-netty</name>
 	<description>netty project for Spring Boot</description>
 
 	<properties>
