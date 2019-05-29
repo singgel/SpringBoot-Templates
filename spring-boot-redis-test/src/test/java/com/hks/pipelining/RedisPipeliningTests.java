@@ -14,10 +14,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.time.Duration;
 import java.time.Instant;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Redis Pipelining
@@ -39,11 +37,28 @@ public class RedisPipeliningTests {
     public void testMset() {
 
         Map<String,String> maps = new HashMap<String, String>();
-        for (int i = 0; i < (10 * 10000); i++) {
-            maps.put("multi"+i,"multi3"+i);
+        for (int i = 0; i < (10 * 10); i++) {
+            maps.put("1145multi"+i,"169multi3"+i);
         }
         System.out.println(maps);
         redisTemplate.opsForValue().multiSet(maps);
+
+    }
+
+    @Test
+    public void testDel() {
+
+        Set<String> keys = redisTemplate.keys("169*");
+        redisTemplate.delete(keys);
+
+    }
+
+    @Test
+    public void testExpire() {
+
+        for (int i = 0; i < (10000); i++) {
+            this.redisTemplate.expire("169multi"+i,500, TimeUnit.MILLISECONDS);
+        }
 
     }
 
