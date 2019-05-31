@@ -1,0 +1,4 @@
+example.service:
+  enabled: true
+  prefix: ppp
+  suffix: sss
