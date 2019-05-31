@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.hks.dbcount.DbCountAutoConfiguration
+com.hks.config.ExampleAutoConfigure
