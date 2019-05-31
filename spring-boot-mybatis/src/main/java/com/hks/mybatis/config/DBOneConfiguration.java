@@ -42,7 +42,7 @@ public class DBOneConfiguration extends AbstractDruidDBConfig {
         return super.sqlSessionFactory(dataSource());
     }
 
-    @Bean
+    @Bean(name = "txManager1")
     public PlatformTransactionManager transactionManager() throws SQLException {
         return new DataSourceTransactionManager(dataSource());
     }

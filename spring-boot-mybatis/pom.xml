@@ -30,10 +30,15 @@
         <commons-lang3.version>3.4</commons-lang3.version>
         <fastjson.version>1.2.4</fastjson.version>
         <commons-beanutils.version>1.9.2</commons-beanutils.version>
-        <mysql.version>5.1.36</mysql.version>
+        <mysql.version>8.0.11</mysql.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+            <version>1.1.0.RELEASE</version>
+        </dependency>
 
         <!-- spring-boot-->
         <dependency>

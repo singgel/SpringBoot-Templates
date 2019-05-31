@@ -45,7 +45,7 @@ public class DBTwoConfiguration extends AbstractDruidDBConfig {
         return super.sqlSessionFactory(dataSource());
     }
 
-    @Bean
+    @Bean(name = "txManager2")
     @Primary
     public PlatformTransactionManager transactionManager() throws SQLException {
         return new DataSourceTransactionManager(dataSource());

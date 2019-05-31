@@ -1,0 +1,30 @@
+server:
+    port: 5555
+    tomcat:
+        max-connections: 2000
+        max-threads: 1000
+spring:
+    application:
+        name: spring-boot-mybatis
+ymq:
+    one:
+        datasource:
+            password: root
+            url: jdbc:mysql://localhost:3306/ymq_one?useUnicode=true&characterEncoding=UTF-8
+            username: root
+    two:
+        datasource:
+            password: root
+            url: jdbc:mysql://localhost:3306/ymq_two?useUnicode=true&characterEncoding=UTF-8
+            username: root
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${DISCOVERY_URL:http://localhost:8761}/eureka/
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+
+ribbon:
+  eureka:
+    enabled: true
