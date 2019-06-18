@@ -1,4 +1,4 @@
-package com.hks.boot;
+package com.hks.lettuce;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class BootApplicationTests {
+public class LettuceApplicationTests {
 
 	@Test
 	public void contextLoads() {
