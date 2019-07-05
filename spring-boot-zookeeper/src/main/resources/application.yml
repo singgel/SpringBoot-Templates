@@ -1,0 +1,7 @@
+
+zookeeper:
+    server: sep.zookeeper.inter.xueqiu.com:2181
+    sessionTimeoutMs: 6000
+    connectionTimeoutMs: 6000
+    maxRetries: 3
+    baseSleepTimeMs: 1000
