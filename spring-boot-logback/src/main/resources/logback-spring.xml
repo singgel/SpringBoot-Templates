@@ -67,6 +67,39 @@
         </layout>
     </appender>
 
+    <!-- 定义 INFO 日志的输出方式:-->
+    <appender name="FILE_INFO" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 下面为配置只输出error级别的日志 -->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <OnMismatch>DENY</OnMismatch>
+            <OnMatch>ACCEPT</OnMatch>
+        </filter>
+        <append>true</append>
+        <!--日志文件路径，日志文件名称-->
+        <File>${LOG_HOME}/info_${LOG_PREFIX}.log</File>
+
+        <!-- 设置滚动策略，当天的日志大小超过 ${MAX_FILE_SIZE} 文件大小时候，新的内容写入新的文件， 默认10MB -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+
+            <!--日志文件路径，新的 INFO 日志文件名称，“ i ” 是个变量 -->
+            <FileNamePattern>${LOG_DIR}/info_${LOG_PREFIX}%i.log</FileNamePattern>
+
+            <!-- 配置日志的滚动时间 ，表示只保留最近 10 天的日志-->
+            <MaxHistory>${MAX_HISTORY}</MaxHistory>
+
+            <!--当天的日志大小超过 ${MAX_FILE_SIZE} 文件大小时候，新的内容写入新的文件， 默认10MB-->
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>${MAX_FILE_SIZE}</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+
+        <!-- 输出的日志内容格式化-->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>${LOG_MSG}</Pattern>
+        </layout>
+    </appender>
+
     <!-- 定义 ERROR 日志的输出方式:-->
     <appender name="FILE_ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <!-- 下面为配置只输出error级别的日志 -->
@@ -115,6 +148,9 @@
 
         <!-- FILE_ALL 日志输出添加到 logger -->
         <appender-ref ref="FILE_ALL"/>
+
+        <!-- FILE_INFO 日志输出添加到 logger -->
+        <!--<appender-ref ref="FILE_INFO"/>-->
 
         <!-- FILE_ERROR 日志输出添加到 logger -->
         <appender-ref ref="FILE_ERROR"/>

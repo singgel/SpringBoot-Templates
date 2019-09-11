@@ -37,8 +37,8 @@ public class RedisPipeliningTests {
     public void testMset() {
 
         Map<String,String> maps = new HashMap<String, String>();
-        for (int i = 0; i < (10 * 10); i++) {
-            maps.put("1145multi"+i,"169multi3"+i);
+        for (int i = 0; i < (10 * 10000); i++) {
+            maps.put("10169multi"+i,"169multi3"+i);
         }
         System.out.println(maps);
         redisTemplate.opsForValue().multiSet(maps);
@@ -48,8 +48,10 @@ public class RedisPipeliningTests {
     @Test
     public void testDel() {
 
-        Set<String> keys = redisTemplate.keys("169*");
-        redisTemplate.delete(keys);
+        Set<String> keys = redisTemplate.keys("10169*");
+        long count = redisTemplate.delete(keys);
+
+        System.out.println(count);
 
     }
 
@@ -57,7 +59,8 @@ public class RedisPipeliningTests {
     public void testExpire() {
 
         for (int i = 0; i < (10000); i++) {
-            this.redisTemplate.expire("169multi"+i,500, TimeUnit.MILLISECONDS);
+            boolean flag = this.redisTemplate.expire("169multi"+i,500, TimeUnit.MILLISECONDS);
+            System.out.println(flag);
         }
 
     }

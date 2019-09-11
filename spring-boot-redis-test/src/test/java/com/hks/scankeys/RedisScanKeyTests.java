@@ -33,7 +33,7 @@ public class RedisScanKeyTests {
             @Override
             public Set<Object> doInRedis(RedisConnection connection) throws DataAccessException {
 
-                Cursor<byte[]> cursor = connection.scan( new ScanOptions.ScanOptionsBuilder().match("*").count(1000).build());
+                Cursor<byte[]> cursor = connection.scan( new ScanOptions.ScanOptionsBuilder().match("1145multi*").count(1000).build());
                 while (cursor.hasNext()) {
                     binaryKeys.add(new String(cursor.next()));
                 }
