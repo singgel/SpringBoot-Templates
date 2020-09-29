@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator">
+		<resetJUL>true</resetJUL>
+	</contextListener>
+	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<!-- https://logback.qos.ch/manual/layouts.html#coloring -->
+			<!-- %black", "%red", "%green","%yellow","%blue", "%magenta","%cyan", "%white", "%gray", "%boldRed","%boldGreen", "%boldYellow", "%boldBlue", "%boldMagenta""%boldCyan", "%boldWhite" and "%highlight" -->
+			<pattern>%magenta(%date{yyyy-MM-dd HH:mm:ss.SSS}|%level)| %boldBlue(%logger|%msg%n)</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="STDOUT" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.home}/stdout.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.home}/archives/stdout.%d{yyyy-MM-dd}.log
+			</fileNamePattern>
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<!-- https://logback.qos.ch/manual/layouts.html#coloring -->
+			<!-- %black", "%red", "%green","%yellow","%blue", "%magenta","%cyan", "%white", "%gray", "%boldRed","%boldGreen", "%boldYellow", "%boldBlue", "%boldMagenta""%boldCyan", "%boldWhite" and "%highlight" -->
+			<pattern>%magenta(%date{yyyy-MM-dd HH:mm:ss.SSS}|%level)| %boldBlue(%logger|%msg%n)</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="GRPC_STDOUT" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.home}/xueqiu-spring.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.home}/archives/xueqiu-spring.%d{yyyy-MM-dd}.log
+			</fileNamePattern>
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<!-- https://logback.qos.ch/manual/layouts.html#coloring -->
+			<!-- %black", "%red", "%green","%yellow","%blue", "%magenta","%cyan", "%white", "%gray", "%boldRed","%boldGreen", "%boldYellow", "%boldBlue", "%boldMagenta""%boldCyan", "%boldWhite" and "%highlight" -->
+			<pattern>%magenta(%date{yyyy-MM-dd HH:mm:ss.SSS}|%level)| %boldGreen(%logger|%msg%n)</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="SLEUTH_STDOUT" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.home}/sleuth.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.home}/archives/sleuth.%d{yyyy-MM-dd}.log
+			</fileNamePattern>
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<!-- https://logback.qos.ch/manual/layouts.html#coloring -->
+			<!-- %black", "%red", "%green","%yellow","%blue", "%magenta","%cyan", "%white", "%gray", "%boldRed","%boldGreen", "%boldYellow", "%boldBlue", "%boldMagenta""%boldCyan", "%boldWhite" and "%highlight" -->
+			<pattern>%date{yyyy-MM-dd HH:mm:ss.SSS}|%level| %logger|%msg%n</pattern>
+		</encoder>
+	</appender>
+
+
+	<!--Logger 本身的日志信息 REF请随意 -->
+	<logger name="com.xueqiu.infra" level="DEBUG" additivity="false">
+		<appender-ref ref="GRPC_STDOUT" />
+		<appender-ref ref="CONSOLE" />
+	</logger>
+
+	<logger name="org.springframework.cloud.sleuth" level="DEBUG" additivity="false">
+		<appender-ref ref="SLEUTH_STDOUT" />
+	</logger>
+
+
+	<root level="INFO">
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="CONSOLE" />
+	</root>
+</configuration>

@@ -1,0 +1,8 @@
+
+app:
+  id: infra-heks
+apollo:
+  bootstrap:
+    enabled: true
+  meta: http://sep.apollo.inter.xueqiu.com
+  cacheDir: logs

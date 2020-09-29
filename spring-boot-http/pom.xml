@@ -11,7 +11,7 @@
 	<groupId>com.heks</groupId>
 	<artifactId>http</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>http</name>
+	<name>spring-boot-http</name>
 	<description>restTemplate project for Spring Boot</description>
 
 	<properties>
