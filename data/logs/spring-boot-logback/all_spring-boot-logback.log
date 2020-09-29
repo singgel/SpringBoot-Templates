@@ -1,0 +1,310 @@
+- | [] | [20190614 10:58:42.780] | [INFO] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> Starting LogbackApplication on localhost with PID 23673 (/Users/xueqiu/github/SpringBoot-Templates/spring-boot-logback/target/classes started by xueqiu in /Users/xueqiu/github/SpringBoot-Templates)|
+- | [] | [20190614 10:58:42.783] | [DEBUG] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE|
+- | [] | [20190614 10:58:42.784] | [INFO] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> No active profile set, falling back to default profiles: default|
+- | [] | [20190614 10:58:43.326] | [DEBUG] | [localhost] | [background-preinit] | [org.jboss.logging] | --> Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property|
+- | [] | [20190614 10:58:43.328] | [INFO] | [localhost] | [background-preinit] | [o.h.validator.internal.util.Version] | --> HV000001: Hibernate Validator 5.3.5.Final|
+- | [] | [20190614 10:58:43.403] | [DEBUG] | [localhost] | [background-preinit] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 10:58:44.908] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 10:58:44.926] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 10:58:44.932] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator|
+- | [] | [20190614 10:58:44.932] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory|
+- | [] | [20190614 10:58:44.935] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy55|
+- | [] | [20190614 10:58:44.939] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> Trying to load META-INF/validation.xml for XML based Validator configuration.|
+- | [] | [20190614 10:58:44.945] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via user class loader|
+- | [] | [20190614 10:58:44.947] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via TCCL|
+- | [] | [20190614 10:58:44.947] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via Hibernate Validator's class loader|
+- | [] | [20190614 10:58:44.948] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> No META-INF/validation.xml found. Using annotation based configuration only.|
+- | [] | [20190614 10:58:45.417] | [INFO] | [localhost] | [main] | [o.a.catalina.core.StandardService] | --> Starting service [Tomcat]|
+- | [] | [20190614 10:58:45.418] | [INFO] | [localhost] | [main] | [o.a.catalina.core.StandardEngine] | --> Starting Servlet Engine: Apache Tomcat/8.5.20|
+- | [] | [20190614 10:58:45.535] | [INFO] | [localhost] | [localhost-startStop-1] | [o.a.c.c.C.[Tomcat].[localhost].[/]] | --> Initializing Spring embedded WebApplicationContext|
+- | [] | [20190614 10:58:46.018] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 10:58:46.025] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 10:58:46.026] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator|
+- | [] | [20190614 10:58:46.026] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory|
+- | [] | [20190614 10:58:46.026] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy55|
+- | [] | [20190614 10:58:46.026] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> Trying to load META-INF/validation.xml for XML based Validator configuration.|
+- | [] | [20190614 10:58:46.027] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via user class loader|
+- | [] | [20190614 10:58:46.027] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via TCCL|
+- | [] | [20190614 10:58:46.027] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via Hibernate Validator's class loader|
+- | [] | [20190614 10:58:46.027] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> No META-INF/validation.xml found. Using annotation based configuration only.|
+- | [] | [20190614 10:58:46.406] | [INFO] | [localhost] | [main] | [c.h.logback.config.commons.LogAspect] | --> 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ 开始调用--> com.hks.logback.config.commons.MyWebMvcConfigurer#addInterceptors 参数:[{}]|
+- | [] | [20190614 10:58:46.411] | [INFO] | [localhost] | [main] | [c.h.logback.config.commons.LogAspect] | --> 
+ 调用结束<-- com.hks.logback.config.commons.MyWebMvcConfigurer#addInterceptors 返回值:null 耗时:4ms
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+|
+- | [] | [20190614 10:58:46.799] | [INFO] | [localhost] | [main] | [o.a.coyote.http11.Http11NioProtocol] | --> Initializing ProtocolHandler ["http-nio-8090"]|
+- | [] | [20190614 10:58:46.810] | [INFO] | [localhost] | [main] | [o.a.coyote.http11.Http11NioProtocol] | --> Starting ProtocolHandler ["http-nio-8090"]|
+- | [] | [20190614 10:58:46.840] | [INFO] | [localhost] | [main] | [o.a.tomcat.util.net.NioSelectorPool] | --> Using a shared selector for servlet write/read|
+- | [] | [20190614 10:58:46.865] | [INFO] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> Started LogbackApplication in 5.404 seconds (JVM running for 6.325)|
+- | [] | [20190614 10:59:50.055] | [INFO] | [localhost] | [http-nio-8090-exec-1] | [o.a.c.c.C.[Tomcat].[localhost].[/]] | --> Initializing Spring FrameworkServlet 'dispatcherServlet'|
+- | [3C26AB3E65E44532BC04FF82314CF882] | [20190614 10:59:50.105] | [INFO] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.c.c.ControllerInterceptor] | --> ControllerInterceptor preHandle 在请求处理之前生成 logback requestUUID:3C26AB3E65E44532BC04FF82314CF882|
+- | [3C26AB3E65E44532BC04FF82314CF882] | [20190614 10:59:50.127] | [INFO] | [localhost] | [http-nio-8090-exec-1] | [c.h.logback.config.commons.LogAspect] | --> 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+首页IndexController 开始调用--> com.hks.logback.controller.IndexController#index 参数:["\"我是测试内容\""]|
+- | [3C26AB3E65E44532BC04FF82314CF882] | [20190614 10:59:50.142] | [DEBUG] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [3C26AB3E65E44532BC04FF82314CF882] | [20190614 10:59:50.143] | [INFO] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [3C26AB3E65E44532BC04FF82314CF882] | [20190614 10:59:50.143] | [WARN] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [3C26AB3E65E44532BC04FF82314CF882] | [20190614 10:59:50.143] | [ERROR] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [3C26AB3E65E44532BC04FF82314CF882] | [20190614 10:59:50.143] | [INFO] | [localhost] | [http-nio-8090-exec-1] | [c.h.logback.config.commons.LogAspect] | --> 
+首页IndexController 调用结束<-- com.hks.logback.controller.IndexController#index 返回值:"2019-06-14T10:59:50.141,content:\"我是测试内容\"" 耗时:16ms
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+|
+- | [3C26AB3E65E44532BC04FF82314CF882] | [20190614 10:59:50.163] | [INFO] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.c.c.ControllerInterceptor] | --> ControllerInterceptor postHandle 请求处理之后清除 logback MDC requestUUID|
+- | [] | [20190614 10:59:50.164] | [INFO] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.c.c.ControllerInterceptor] | --> ControllerInterceptor afterCompletion 整个请求处理完毕清除 logback MDC requestUUID|
+- | [B0B8C80BED9347F2A28E3E2E4C98A7E6] | [20190614 11:00:42.852] | [WARN] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [B0B8C80BED9347F2A28E3E2E4C98A7E6] | [20190614 11:00:42.856] | [ERROR] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [450CBC720B5C412990BDED6F0E9530D6] | [20190614 11:02:42.235] | [INFO] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [450CBC720B5C412990BDED6F0E9530D6] | [20190614 11:02:42.238] | [WARN] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [450CBC720B5C412990BDED6F0E9530D6] | [20190614 11:02:42.238] | [ERROR] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [] | [20190614 11:04:07.746] | [INFO] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> Starting LogbackApplication on localhost with PID 23763 (/Users/xueqiu/github/SpringBoot-Templates/spring-boot-logback/target/classes started by xueqiu in /Users/xueqiu/github/SpringBoot-Templates)|
+- | [] | [20190614 11:04:07.764] | [DEBUG] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE|
+- | [] | [20190614 11:04:07.765] | [INFO] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> No active profile set, falling back to default profiles: default|
+- | [] | [20190614 11:04:08.310] | [DEBUG] | [localhost] | [background-preinit] | [org.jboss.logging] | --> Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property|
+- | [] | [20190614 11:04:08.312] | [INFO] | [localhost] | [background-preinit] | [o.h.validator.internal.util.Version] | --> HV000001: Hibernate Validator 5.3.5.Final|
+- | [] | [20190614 11:04:08.369] | [DEBUG] | [localhost] | [background-preinit] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:04:10.506] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:04:10.526] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:04:10.530] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator|
+- | [] | [20190614 11:04:10.531] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory|
+- | [] | [20190614 11:04:10.533] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy55|
+- | [] | [20190614 11:04:10.536] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> Trying to load META-INF/validation.xml for XML based Validator configuration.|
+- | [] | [20190614 11:04:10.538] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via user class loader|
+- | [] | [20190614 11:04:10.539] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via TCCL|
+- | [] | [20190614 11:04:10.540] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via Hibernate Validator's class loader|
+- | [] | [20190614 11:04:10.540] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> No META-INF/validation.xml found. Using annotation based configuration only.|
+- | [] | [20190614 11:04:11.016] | [INFO] | [localhost] | [main] | [o.a.catalina.core.StandardService] | --> Starting service [Tomcat]|
+- | [] | [20190614 11:04:11.017] | [INFO] | [localhost] | [main] | [o.a.catalina.core.StandardEngine] | --> Starting Servlet Engine: Apache Tomcat/8.5.20|
+- | [] | [20190614 11:04:11.123] | [INFO] | [localhost] | [localhost-startStop-1] | [o.a.c.c.C.[Tomcat].[localhost].[/]] | --> Initializing Spring embedded WebApplicationContext|
+- | [] | [20190614 11:04:11.546] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:04:11.553] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:04:11.554] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator|
+- | [] | [20190614 11:04:11.554] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory|
+- | [] | [20190614 11:04:11.554] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy55|
+- | [] | [20190614 11:04:11.555] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> Trying to load META-INF/validation.xml for XML based Validator configuration.|
+- | [] | [20190614 11:04:11.555] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via user class loader|
+- | [] | [20190614 11:04:11.555] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via TCCL|
+- | [] | [20190614 11:04:11.555] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via Hibernate Validator's class loader|
+- | [] | [20190614 11:04:11.555] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> No META-INF/validation.xml found. Using annotation based configuration only.|
+- | [] | [20190614 11:04:11.914] | [INFO] | [localhost] | [main] | [c.h.logback.config.commons.LogAspect] | --> 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ 开始调用--> com.hks.logback.config.commons.MyWebMvcConfigurer#addInterceptors 参数:[{}]|
+- | [] | [20190614 11:04:11.918] | [INFO] | [localhost] | [main] | [c.h.logback.config.commons.LogAspect] | --> 
+ 调用结束<-- com.hks.logback.config.commons.MyWebMvcConfigurer#addInterceptors 返回值:null 耗时:3ms
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+|
+- | [] | [20190614 11:04:12.293] | [INFO] | [localhost] | [main] | [o.a.coyote.http11.Http11NioProtocol] | --> Initializing ProtocolHandler ["http-nio-8090"]|
+- | [] | [20190614 11:04:12.304] | [INFO] | [localhost] | [main] | [o.a.coyote.http11.Http11NioProtocol] | --> Starting ProtocolHandler ["http-nio-8090"]|
+- | [] | [20190614 11:04:12.338] | [INFO] | [localhost] | [main] | [o.a.tomcat.util.net.NioSelectorPool] | --> Using a shared selector for servlet write/read|
+- | [] | [20190614 11:04:12.364] | [INFO] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> Started LogbackApplication in 5.321 seconds (JVM running for 5.989)|
+- | [] | [20190614 11:04:54.193] | [INFO] | [localhost] | [http-nio-8090-exec-1] | [o.a.c.c.C.[Tomcat].[localhost].[/]] | --> Initializing Spring FrameworkServlet 'dispatcherServlet'|
+- | [4B11D74F8B3F406189B9BFBF44F11439] | [20190614 11:04:54.262] | [INFO] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.c.c.ControllerInterceptor] | --> ControllerInterceptor preHandle 在请求处理之前生成 logback requestUUID:4B11D74F8B3F406189B9BFBF44F11439|
+- | [4B11D74F8B3F406189B9BFBF44F11439] | [20190614 11:04:54.278] | [INFO] | [localhost] | [http-nio-8090-exec-1] | [c.h.logback.config.commons.LogAspect] | --> 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+首页IndexController 开始调用--> com.hks.logback.controller.IndexController#index 参数:["\"我是测试内容\""]|
+- | [4B11D74F8B3F406189B9BFBF44F11439] | [20190614 11:04:54.295] | [ERROR] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [4B11D74F8B3F406189B9BFBF44F11439] | [20190614 11:04:54.295] | [INFO] | [localhost] | [http-nio-8090-exec-1] | [c.h.logback.config.commons.LogAspect] | --> 
+首页IndexController 调用结束<-- com.hks.logback.controller.IndexController#index 返回值:"2019-06-14T11:04:54.294,content:\"我是测试内容\"" 耗时:16ms
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+|
+- | [4B11D74F8B3F406189B9BFBF44F11439] | [20190614 11:04:54.314] | [INFO] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.c.c.ControllerInterceptor] | --> ControllerInterceptor postHandle 请求处理之后清除 logback MDC requestUUID|
+- | [] | [20190614 11:04:54.314] | [INFO] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.c.c.ControllerInterceptor] | --> ControllerInterceptor afterCompletion 整个请求处理完毕清除 logback MDC requestUUID|
+- | [F773B61D53464F818D75DD20856A4124] | [20190614 11:04:59.326] | [INFO] | [localhost] | [http-nio-8090-exec-3] | [c.h.l.c.c.ControllerInterceptor] | --> ControllerInterceptor preHandle 在请求处理之前生成 logback requestUUID:F773B61D53464F818D75DD20856A4124|
+- | [F773B61D53464F818D75DD20856A4124] | [20190614 11:04:59.326] | [INFO] | [localhost] | [http-nio-8090-exec-3] | [c.h.logback.config.commons.LogAspect] | --> 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+首页IndexController 开始调用--> com.hks.logback.controller.IndexController#index 参数:["\"我是测试内容\""]|
+- | [F773B61D53464F818D75DD20856A4124] | [20190614 11:04:59.327] | [ERROR] | [localhost] | [http-nio-8090-exec-3] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [F773B61D53464F818D75DD20856A4124] | [20190614 11:04:59.327] | [INFO] | [localhost] | [http-nio-8090-exec-3] | [c.h.logback.config.commons.LogAspect] | --> 
+首页IndexController 调用结束<-- com.hks.logback.controller.IndexController#index 返回值:"2019-06-14T11:04:59.327,content:\"我是测试内容\"" 耗时:1ms
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+|
+- | [F773B61D53464F818D75DD20856A4124] | [20190614 11:04:59.329] | [INFO] | [localhost] | [http-nio-8090-exec-3] | [c.h.l.c.c.ControllerInterceptor] | --> ControllerInterceptor postHandle 请求处理之后清除 logback MDC requestUUID|
+- | [] | [20190614 11:04:59.329] | [INFO] | [localhost] | [http-nio-8090-exec-3] | [c.h.l.c.c.ControllerInterceptor] | --> ControllerInterceptor afterCompletion 整个请求处理完毕清除 logback MDC requestUUID|
+- | [0897446F8E8E41F5A2AE66DC8275D17C] | [20190614 11:09:28.796] | [WARN] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [0897446F8E8E41F5A2AE66DC8275D17C] | [20190614 11:09:28.799] | [ERROR] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [] | [20190614 11:24:54.355] | [INFO] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> Starting LogbackApplication on localhost with PID 24171 (/Users/xueqiu/github/SpringBoot-Templates/spring-boot-logback/target/classes started by xueqiu in /Users/xueqiu/github/SpringBoot-Templates)|
+- | [] | [20190614 11:24:54.358] | [DEBUG] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE|
+- | [] | [20190614 11:24:54.359] | [INFO] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> No active profile set, falling back to default profiles: default|
+- | [] | [20190614 11:24:54.451] | [DEBUG] | [localhost] | [background-preinit] | [org.jboss.logging] | --> Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property|
+- | [] | [20190614 11:24:54.454] | [INFO] | [localhost] | [background-preinit] | [o.h.validator.internal.util.Version] | --> HV000001: Hibernate Validator 5.3.5.Final|
+- | [] | [20190614 11:24:54.476] | [DEBUG] | [localhost] | [background-preinit] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:24:55.727] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:24:55.736] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:24:55.740] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator|
+- | [] | [20190614 11:24:55.740] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory|
+- | [] | [20190614 11:24:55.741] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy56|
+- | [] | [20190614 11:24:55.744] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> Trying to load META-INF/validation.xml for XML based Validator configuration.|
+- | [] | [20190614 11:24:55.747] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via user class loader|
+- | [] | [20190614 11:24:55.748] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via TCCL|
+- | [] | [20190614 11:24:55.748] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via Hibernate Validator's class loader|
+- | [] | [20190614 11:24:55.749] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> No META-INF/validation.xml found. Using annotation based configuration only.|
+- | [] | [20190614 11:24:56.088] | [INFO] | [localhost] | [main] | [o.a.catalina.core.StandardService] | --> Starting service [Tomcat]|
+- | [] | [20190614 11:24:56.089] | [INFO] | [localhost] | [main] | [o.a.catalina.core.StandardEngine] | --> Starting Servlet Engine: Apache Tomcat/8.5.20|
+- | [] | [20190614 11:24:56.159] | [INFO] | [localhost] | [localhost-startStop-1] | [o.a.c.c.C.[Tomcat].[localhost].[/]] | --> Initializing Spring embedded WebApplicationContext|
+- | [] | [20190614 11:24:56.429] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:24:56.435] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:24:56.436] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator|
+- | [] | [20190614 11:24:56.436] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory|
+- | [] | [20190614 11:24:56.436] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy56|
+- | [] | [20190614 11:24:56.436] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> Trying to load META-INF/validation.xml for XML based Validator configuration.|
+- | [] | [20190614 11:24:56.436] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via user class loader|
+- | [] | [20190614 11:24:56.436] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via TCCL|
+- | [] | [20190614 11:24:56.437] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via Hibernate Validator's class loader|
+- | [] | [20190614 11:24:56.437] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> No META-INF/validation.xml found. Using annotation based configuration only.|
+- | [] | [20190614 11:24:56.673] | [INFO] | [localhost] | [main] | [c.h.logback.config.commons.LogAspect] | --> 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ 开始调用--> com.hks.logback.config.commons.MyWebMvcConfigurer#addInterceptors 参数:[{}]|
+- | [] | [20190614 11:24:56.675] | [INFO] | [localhost] | [main] | [c.h.logback.config.commons.LogAspect] | --> 
+ 调用结束<-- com.hks.logback.config.commons.MyWebMvcConfigurer#addInterceptors 返回值:null 耗时:2ms
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+|
+- | [] | [20190614 11:24:56.960] | [INFO] | [localhost] | [main] | [o.a.coyote.http11.Http11NioProtocol] | --> Initializing ProtocolHandler ["http-nio-8090"]|
+- | [] | [20190614 11:24:56.967] | [INFO] | [localhost] | [main] | [o.a.coyote.http11.Http11NioProtocol] | --> Starting ProtocolHandler ["http-nio-8090"]|
+- | [] | [20190614 11:24:56.990] | [INFO] | [localhost] | [main] | [o.a.tomcat.util.net.NioSelectorPool] | --> Using a shared selector for servlet write/read|
+- | [] | [20190614 11:24:57.007] | [INFO] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> Started LogbackApplication in 3.149 seconds (JVM running for 3.876)|
+- | [] | [20190614 11:26:05.324] | [INFO] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> Starting LogbackApplication on localhost with PID 24187 (/Users/xueqiu/github/SpringBoot-Templates/spring-boot-logback/target/classes started by xueqiu in /Users/xueqiu/github/SpringBoot-Templates)|
+- | [] | [20190614 11:26:05.328] | [DEBUG] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE|
+- | [] | [20190614 11:26:05.328] | [INFO] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> No active profile set, falling back to default profiles: default|
+- | [] | [20190614 11:26:05.415] | [DEBUG] | [localhost] | [background-preinit] | [org.jboss.logging] | --> Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property|
+- | [] | [20190614 11:26:05.417] | [INFO] | [localhost] | [background-preinit] | [o.h.validator.internal.util.Version] | --> HV000001: Hibernate Validator 5.3.5.Final|
+- | [] | [20190614 11:26:05.454] | [DEBUG] | [localhost] | [background-preinit] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:26:06.498] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:26:06.505] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:26:06.508] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator|
+- | [] | [20190614 11:26:06.509] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory|
+- | [] | [20190614 11:26:06.510] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy56|
+- | [] | [20190614 11:26:06.511] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> Trying to load META-INF/validation.xml for XML based Validator configuration.|
+- | [] | [20190614 11:26:06.512] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via user class loader|
+- | [] | [20190614 11:26:06.513] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via TCCL|
+- | [] | [20190614 11:26:06.513] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via Hibernate Validator's class loader|
+- | [] | [20190614 11:26:06.513] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> No META-INF/validation.xml found. Using annotation based configuration only.|
+- | [] | [20190614 11:26:06.751] | [INFO] | [localhost] | [main] | [o.a.catalina.core.StandardService] | --> Starting service [Tomcat]|
+- | [] | [20190614 11:26:06.752] | [INFO] | [localhost] | [main] | [o.a.catalina.core.StandardEngine] | --> Starting Servlet Engine: Apache Tomcat/8.5.20|
+- | [] | [20190614 11:26:06.812] | [INFO] | [localhost] | [localhost-startStop-1] | [o.a.c.c.C.[Tomcat].[localhost].[/]] | --> Initializing Spring embedded WebApplicationContext|
+- | [] | [20190614 11:26:07.118] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:26:07.125] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:26:07.126] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator|
+- | [] | [20190614 11:26:07.126] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory|
+- | [] | [20190614 11:26:07.126] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy56|
+- | [] | [20190614 11:26:07.126] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> Trying to load META-INF/validation.xml for XML based Validator configuration.|
+- | [] | [20190614 11:26:07.126] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via user class loader|
+- | [] | [20190614 11:26:07.126] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via TCCL|
+- | [] | [20190614 11:26:07.127] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via Hibernate Validator's class loader|
+- | [] | [20190614 11:26:07.127] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> No META-INF/validation.xml found. Using annotation based configuration only.|
+- | [] | [20190614 11:26:07.339] | [INFO] | [localhost] | [main] | [c.h.logback.config.commons.LogAspect] | --> 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ 开始调用--> com.hks.logback.config.commons.MyWebMvcConfigurer#addInterceptors 参数:[{}]|
+- | [] | [20190614 11:26:07.341] | [INFO] | [localhost] | [main] | [c.h.logback.config.commons.LogAspect] | --> 
+ 调用结束<-- com.hks.logback.config.commons.MyWebMvcConfigurer#addInterceptors 返回值:null 耗时:2ms
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+|
+- | [] | [20190614 11:26:07.604] | [INFO] | [localhost] | [main] | [o.a.coyote.http11.Http11NioProtocol] | --> Initializing ProtocolHandler ["http-nio-8090"]|
+- | [] | [20190614 11:26:07.615] | [INFO] | [localhost] | [main] | [o.a.coyote.http11.Http11NioProtocol] | --> Starting ProtocolHandler ["http-nio-8090"]|
+- | [] | [20190614 11:26:07.637] | [INFO] | [localhost] | [main] | [o.a.tomcat.util.net.NioSelectorPool] | --> Using a shared selector for servlet write/read|
+- | [] | [20190614 11:26:07.653] | [INFO] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> Started LogbackApplication in 2.941 seconds (JVM running for 3.694)|
+- | [A7310D27F04D4DD19CC9323090B2E7AB] | [20190614 11:27:21.465] | [WARN] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [A7310D27F04D4DD19CC9323090B2E7AB] | [20190614 11:27:21.467] | [ERROR] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [] | [20190614 11:30:34.587] | [INFO] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> Starting LogbackApplication on localhost with PID 24250 (/Users/xueqiu/github/SpringBoot-Templates/spring-boot-logback/target/classes started by xueqiu in /Users/xueqiu/github/SpringBoot-Templates)|
+- | [] | [20190614 11:30:34.595] | [DEBUG] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE|
+- | [] | [20190614 11:30:34.596] | [INFO] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> No active profile set, falling back to default profiles: default|
+- | [] | [20190614 11:30:34.761] | [DEBUG] | [localhost] | [background-preinit] | [org.jboss.logging] | --> Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property|
+- | [] | [20190614 11:30:34.762] | [INFO] | [localhost] | [background-preinit] | [o.h.validator.internal.util.Version] | --> HV000001: Hibernate Validator 5.3.5.Final|
+- | [] | [20190614 11:30:34.789] | [DEBUG] | [localhost] | [background-preinit] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:30:35.887] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:30:35.893] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:30:35.897] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator|
+- | [] | [20190614 11:30:35.897] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory|
+- | [] | [20190614 11:30:35.898] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy56|
+- | [] | [20190614 11:30:35.900] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> Trying to load META-INF/validation.xml for XML based Validator configuration.|
+- | [] | [20190614 11:30:35.901] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via user class loader|
+- | [] | [20190614 11:30:35.902] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via TCCL|
+- | [] | [20190614 11:30:35.902] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via Hibernate Validator's class loader|
+- | [] | [20190614 11:30:35.902] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> No META-INF/validation.xml found. Using annotation based configuration only.|
+- | [] | [20190614 11:30:36.160] | [INFO] | [localhost] | [main] | [o.a.catalina.core.StandardService] | --> Starting service [Tomcat]|
+- | [] | [20190614 11:30:36.161] | [INFO] | [localhost] | [main] | [o.a.catalina.core.StandardEngine] | --> Starting Servlet Engine: Apache Tomcat/8.5.20|
+- | [] | [20190614 11:30:36.222] | [INFO] | [localhost] | [localhost-startStop-1] | [o.a.c.c.C.[Tomcat].[localhost].[/]] | --> Initializing Spring embedded WebApplicationContext|
+- | [] | [20190614 11:30:36.528] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:30:36.535] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:30:36.535] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator|
+- | [] | [20190614 11:30:36.536] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory|
+- | [] | [20190614 11:30:36.536] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy56|
+- | [] | [20190614 11:30:36.536] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> Trying to load META-INF/validation.xml for XML based Validator configuration.|
+- | [] | [20190614 11:30:36.536] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via user class loader|
+- | [] | [20190614 11:30:36.536] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via TCCL|
+- | [] | [20190614 11:30:36.536] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via Hibernate Validator's class loader|
+- | [] | [20190614 11:30:36.537] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> No META-INF/validation.xml found. Using annotation based configuration only.|
+- | [] | [20190614 11:30:36.748] | [INFO] | [localhost] | [main] | [c.h.logback.config.commons.LogAspect] | --> 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ 开始调用--> com.hks.logback.config.commons.MyWebMvcConfigurer#addInterceptors 参数:[{}]|
+- | [] | [20190614 11:30:36.750] | [INFO] | [localhost] | [main] | [c.h.logback.config.commons.LogAspect] | --> 
+ 调用结束<-- com.hks.logback.config.commons.MyWebMvcConfigurer#addInterceptors 返回值:null 耗时:2ms
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+|
+- | [] | [20190614 11:30:37.009] | [INFO] | [localhost] | [main] | [o.a.coyote.http11.Http11NioProtocol] | --> Initializing ProtocolHandler ["http-nio-8090"]|
+- | [] | [20190614 11:30:37.015] | [INFO] | [localhost] | [main] | [o.a.coyote.http11.Http11NioProtocol] | --> Starting ProtocolHandler ["http-nio-8090"]|
+- | [] | [20190614 11:30:37.043] | [INFO] | [localhost] | [main] | [o.a.tomcat.util.net.NioSelectorPool] | --> Using a shared selector for servlet write/read|
+- | [] | [20190614 11:30:37.060] | [INFO] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> Started LogbackApplication in 3.129 seconds (JVM running for 3.857)|
+- | [] | [20190614 11:31:06.204] | [INFO] | [localhost] | [http-nio-8090-exec-1] | [o.a.c.c.C.[Tomcat].[localhost].[/]] | --> Initializing Spring FrameworkServlet 'dispatcherServlet'|
+- | [CDB06E4F5C864A33A4AB321F2D154887] | [20190614 11:31:06.238] | [INFO] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.c.c.ControllerInterceptor] | --> ControllerInterceptor preHandle 在请求处理之前生成 logback requestUUID:CDB06E4F5C864A33A4AB321F2D154887|
+- | [CDB06E4F5C864A33A4AB321F2D154887] | [20190614 11:31:06.260] | [INFO] | [localhost] | [http-nio-8090-exec-1] | [c.h.logback.config.commons.LogAspect] | --> 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+首页IndexController 开始调用--> com.hks.logback.controller.IndexController#index 参数:["\"我是测试内容\""]|
+- | [CDB06E4F5C864A33A4AB321F2D154887] | [20190614 11:31:06.270] | [DEBUG] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [CDB06E4F5C864A33A4AB321F2D154887] | [20190614 11:31:06.270] | [INFO] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [CDB06E4F5C864A33A4AB321F2D154887] | [20190614 11:31:06.271] | [WARN] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [CDB06E4F5C864A33A4AB321F2D154887] | [20190614 11:31:06.272] | [ERROR] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [CDB06E4F5C864A33A4AB321F2D154887] | [20190614 11:31:06.272] | [INFO] | [localhost] | [http-nio-8090-exec-1] | [c.h.logback.config.commons.LogAspect] | --> 
+首页IndexController 调用结束<-- com.hks.logback.controller.IndexController#index 返回值:"2019-06-14T11:31:06.270,content:\"我是测试内容\"" 耗时:12ms
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+|
+- | [CDB06E4F5C864A33A4AB321F2D154887] | [20190614 11:31:06.286] | [INFO] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.c.c.ControllerInterceptor] | --> ControllerInterceptor postHandle 请求处理之后清除 logback MDC requestUUID|
+- | [] | [20190614 11:31:06.287] | [INFO] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.c.c.ControllerInterceptor] | --> ControllerInterceptor afterCompletion 整个请求处理完毕清除 logback MDC requestUUID|
+- | [] | [20190614 11:36:09.861] | [DEBUG] | [localhost] | [background-preinit] | [org.jboss.logging] | --> Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property|
+- | [] | [20190614 11:36:09.876] | [INFO] | [localhost] | [background-preinit] | [o.h.validator.internal.util.Version] | --> HV000001: Hibernate Validator 5.3.5.Final|
+- | [] | [20190614 11:36:09.936] | [DEBUG] | [localhost] | [background-preinit] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:36:09.959] | [INFO] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> Starting LogbackApplication on localhost with PID 24310 (/Users/xueqiu/github/SpringBoot-Templates/spring-boot-logback/target/classes started by xueqiu in /Users/xueqiu/github/SpringBoot-Templates)|
+- | [] | [20190614 11:36:09.960] | [DEBUG] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE|
+- | [] | [20190614 11:36:09.961] | [INFO] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> No active profile set, falling back to default profiles: default|
+- | [] | [20190614 11:36:11.368] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:36:11.385] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:36:11.388] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator|
+- | [] | [20190614 11:36:11.389] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory|
+- | [] | [20190614 11:36:11.390] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy56|
+- | [] | [20190614 11:36:11.392] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> Trying to load META-INF/validation.xml for XML based Validator configuration.|
+- | [] | [20190614 11:36:11.394] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via user class loader|
+- | [] | [20190614 11:36:11.395] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via TCCL|
+- | [] | [20190614 11:36:11.395] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via Hibernate Validator's class loader|
+- | [] | [20190614 11:36:11.396] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> No META-INF/validation.xml found. Using annotation based configuration only.|
+- | [] | [20190614 11:36:11.668] | [INFO] | [localhost] | [main] | [o.a.catalina.core.StandardService] | --> Starting service [Tomcat]|
+- | [] | [20190614 11:36:11.669] | [INFO] | [localhost] | [main] | [o.a.catalina.core.StandardEngine] | --> Starting Servlet Engine: Apache Tomcat/8.5.20|
+- | [] | [20190614 11:36:11.728] | [INFO] | [localhost] | [localhost-startStop-1] | [o.a.c.c.C.[Tomcat].[localhost].[/]] | --> Initializing Spring embedded WebApplicationContext|
+- | [] | [20190614 11:36:12.010] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:36:12.020] | [DEBUG] | [localhost] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20190614 11:36:12.020] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator|
+- | [] | [20190614 11:36:12.021] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory|
+- | [] | [20190614 11:36:12.021] | [DEBUG] | [localhost] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy56|
+- | [] | [20190614 11:36:12.021] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> Trying to load META-INF/validation.xml for XML based Validator configuration.|
+- | [] | [20190614 11:36:12.021] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via user class loader|
+- | [] | [20190614 11:36:12.022] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via TCCL|
+- | [] | [20190614 11:36:12.022] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via Hibernate Validator's class loader|
+- | [] | [20190614 11:36:12.022] | [DEBUG] | [localhost] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> No META-INF/validation.xml found. Using annotation based configuration only.|
+- | [] | [20190614 11:36:12.312] | [INFO] | [localhost] | [main] | [c.h.logback.config.commons.LogAspect] | --> 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ 开始调用--> com.hks.logback.config.commons.MyWebMvcConfigurer#addInterceptors 参数:[{}]|
+- | [] | [20190614 11:36:12.314] | [INFO] | [localhost] | [main] | [c.h.logback.config.commons.LogAspect] | --> 
+ 调用结束<-- com.hks.logback.config.commons.MyWebMvcConfigurer#addInterceptors 返回值:null 耗时:2ms
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+|
+- | [] | [20190614 11:36:12.590] | [INFO] | [localhost] | [main] | [o.a.coyote.http11.Http11NioProtocol] | --> Initializing ProtocolHandler ["http-nio-8090"]|
+- | [] | [20190614 11:36:12.596] | [INFO] | [localhost] | [main] | [o.a.coyote.http11.Http11NioProtocol] | --> Starting ProtocolHandler ["http-nio-8090"]|
+- | [] | [20190614 11:36:12.619] | [INFO] | [localhost] | [main] | [o.a.tomcat.util.net.NioSelectorPool] | --> Using a shared selector for servlet write/read|
+- | [] | [20190614 11:36:12.639] | [INFO] | [localhost] | [main] | [c.hks.logback.run.LogbackApplication] | --> Started LogbackApplication in 3.493 seconds (JVM running for 4.291)|
+- | [FC6EF6DC20B44DD8919BD86497B5A5DF] | [20190614 11:36:46.919] | [WARN] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [FC6EF6DC20B44DD8919BD86497B5A5DF] | [20190614 11:36:46.921] | [ERROR] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [3744B510C3504678AE730A5BBA6B35F8] | [20190614 11:37:27.134] | [WARN] | [localhost] | [http-nio-8090-exec-4] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [3744B510C3504678AE730A5BBA6B35F8] | [20190614 11:37:27.135] | [ERROR] | [localhost] | [http-nio-8090-exec-4] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [C10DE40A70A54D4C98D3F9C9981DABFC] | [20190614 11:38:16.917] | [WARN] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [C10DE40A70A54D4C98D3F9C9981DABFC] | [20190614 11:38:16.919] | [ERROR] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [9582D81C796E418D88A2E629F28B621E] | [20190614 11:39:01.223] | [WARN] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
+- | [9582D81C796E418D88A2E629F28B621E] | [20190614 11:39:01.224] | [ERROR] | [localhost] | [http-nio-8090-exec-1] | [c.h.l.controller.IndexController] | --> 请求参数：content:"我是测试内容"|
