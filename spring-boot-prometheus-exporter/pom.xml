@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.hks</groupId>
-	<artifactId>exporter</artifactId>
+	<artifactId>spring-boot-prometheus-exporter</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-prometheus-exporter</name>
 	<description>spring-boot-prometheus-exporter project for Spring Boot</description>

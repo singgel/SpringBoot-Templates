@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.heks</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>spring-boot-zookeeper</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-zookeeper</name>
 	<description>spring-boot-zookeeper project for Spring Boot</description>

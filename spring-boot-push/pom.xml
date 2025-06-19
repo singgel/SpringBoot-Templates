@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.heks</groupId>
-    <artifactId>push</artifactId>
+    <artifactId>spring-boot-push</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>push</name>
+    <name>spring-boot-push</name>
     <description>push project for Spring Boot</description>
 
     <properties>
@@ -22,17 +22,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.xiaomi.miliao</groupId>
-            <artifactId>xmpush-server-api-http2</artifactId>
-            <version>1.0.9-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>org.json</groupId>
-            <artifactId>json-simple</artifactId>
-            <version>1.1</version>
         </dependency>
 
         <dependency>

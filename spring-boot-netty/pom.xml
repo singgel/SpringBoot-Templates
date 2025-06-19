@@ -5,11 +5,11 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.1.4.RELEASE</version>
+		<version>2.0.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.hks</groupId>
-	<artifactId>netty</artifactId>
+	<artifactId>spring-boot-netty</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-netty</name>
 	<description>netty project for Spring Boot</description>

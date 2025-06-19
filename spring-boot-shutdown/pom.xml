@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.heks</groupId>
-    <artifactId>shutdown</artifactId>
+    <artifactId>spring-boot-shutdown</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>shutdown</name>
+    <name>spring-boot-shutdown</name>
     <description>shutdown project for Spring Boot</description>
 
     <properties>

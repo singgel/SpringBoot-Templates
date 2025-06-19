@@ -48,11 +48,6 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-        <dependency>
-            <groupId>com.xueqiu.infra</groupId>
-            <artifactId>test-tools</artifactId>
-            <version>1.0.3-SNAPSHOT</version>
-        </dependency>
     </dependencies>
 
     <build>
