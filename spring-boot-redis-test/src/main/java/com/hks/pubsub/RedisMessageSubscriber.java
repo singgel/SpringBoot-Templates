@@ -15,7 +15,7 @@ import java.util.List;
  * <p>
  * RedisMessageSubscriber implements the Spring Data Redis-provided MessageListener interface
  *
- * @author hekuangsheng@gmail.com
+ * @author singgel@gmail.com
  * @create 2019-05-01 19:39
  **/
 @AllArgsConstructor

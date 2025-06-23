@@ -22,7 +22,7 @@ import java.util.Properties;
 
 /**
  * 描述: 提供基础数据源功能
- * author: hekuangsheng
+ * author: singgel
  * Date: 2017/9/8 19:50
  */
 @Configuration

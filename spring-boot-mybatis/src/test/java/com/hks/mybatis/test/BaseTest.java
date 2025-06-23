@@ -19,7 +19,7 @@ import java.util.List;
 
 /**
  * 描述: 单元测试
- * author: hekuangsheng
+ * author: singgel
  * Date: 2017/10/19 19:49
  */
 @RunWith(SpringRunner.class)

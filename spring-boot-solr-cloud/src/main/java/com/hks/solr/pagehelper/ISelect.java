@@ -3,7 +3,7 @@ package com.hks.solr.pagehelper;
 /**
  * 分页查询接口
  *
- * @author hekuangsheng
+ * @author singgel
  * @since 2015-12-18 18:51
  */
 public interface ISelect {

@@ -9,7 +9,7 @@ import javax.annotation.Resource;
 /**
  * 描述:数据源 one
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2017-10-20 11:27
  **/
 @Repository

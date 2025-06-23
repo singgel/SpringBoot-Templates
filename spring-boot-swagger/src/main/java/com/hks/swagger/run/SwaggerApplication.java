@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 /**
  * 描述:启动服务
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2017-10-26 16:37
  **/
 @SpringBootApplication

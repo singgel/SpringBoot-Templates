@@ -6,8 +6,8 @@ import java.util.List;
 /**
  * 分页工具类
  * 
- * @author hekuangsheng
- * @email hekuangsheng@gmail.com
+ * @author singgel
+ * @email singgel@gmail.com
  * @date 2016年11月4日 下午12:59:00
  */
 public class PageUtils implements Serializable {

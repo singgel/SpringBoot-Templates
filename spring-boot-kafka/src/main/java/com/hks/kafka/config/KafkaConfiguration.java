@@ -7,7 +7,7 @@ import org.springframework.kafka.annotation.EnableKafka;
 /**
  * 描述: 启用 kafka
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2017-10-16 18:25
  **/
 @Configuration

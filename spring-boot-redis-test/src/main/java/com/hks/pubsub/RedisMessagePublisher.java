@@ -7,7 +7,7 @@ import org.springframework.data.redis.listener.ChannelTopic;
 /**
  * Redis message publisher
  *
- * @author hekuangsheng@gmail.com
+ * @author singgel@gmail.com
  * @create 2019-05-01 19:36
  **/
 @Setter

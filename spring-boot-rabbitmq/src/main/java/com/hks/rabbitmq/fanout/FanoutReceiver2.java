@@ -7,11 +7,11 @@ import org.springframework.stereotype.Component;
 /**
  * 描述:接收者
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2017-10-23 15:38
  **/
 @Component
-@RabbitListener(queues = "fanout.hekuangsheng.com")
+@RabbitListener(queues = "fanout.singgel.com")
 public class FanoutReceiver2 {
 
     @RabbitHandler

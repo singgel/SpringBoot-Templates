@@ -15,7 +15,7 @@ import java.net.InetAddress;
 /**
  * 描述: elasticsearch 配置
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2017-11-02 16:41
  **/
 @Configuration

@@ -27,8 +27,8 @@ import org.apache.velocity.app.Velocity;
 /**
  * 代码生成器   工具类
  *
- * @author hekuangsheng
- * @email hekuangsheng@gmail.com
+ * @author singgel
+ * @email singgel@gmail.com
  * @date 2016年12月19日 下午11:40:24
  */
 public class GenUtils {

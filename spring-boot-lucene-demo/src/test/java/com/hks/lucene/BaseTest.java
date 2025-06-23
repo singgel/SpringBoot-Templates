@@ -29,7 +29,7 @@ import java.nio.file.Paths;
 /**
  * 描述: 单元测试
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2017-11-07 17:59
  **/
 public class BaseTest {

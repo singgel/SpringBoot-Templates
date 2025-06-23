@@ -17,7 +17,7 @@ import java.net.InetAddress;
 /**
  * 描述:
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2017-11-01 17:19
  **/
 @Configuration

@@ -20,7 +20,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Redis Pipelining
  *
- * @author hekuangsheng@gmail.com
+ * @author singgel@gmail.com
  * @create 2019-04-13 22:32
  **/
 @RunWith(SpringRunner.class)

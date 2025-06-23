@@ -12,7 +12,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 /**
  * 描述: 单元测试
  *
- * @author: hekuangsheng
+ * @author: singgel
  * @create: 2018/2/5 13:52
  */
 @RunWith(SpringRunner.class)

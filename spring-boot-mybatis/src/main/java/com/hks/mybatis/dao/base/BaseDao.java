@@ -17,7 +17,7 @@ import java.util.Map;
 
 /**
  * 描述: SqlSessionDaoSupport
- * author: hekuangsheng
+ * author: singgel
  * Date: 2017/9/8 19:50
  */
 public class BaseDao extends SqlSessionDaoSupport implements IBaseDao {

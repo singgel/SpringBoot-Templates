@@ -14,7 +14,7 @@ import java.util.UUID;
 /**
  * Redis Pub/Sub tests
  *
- * @author hekuangsheng@gmail.com
+ * @author singgel@gmail.com
  * @create 2019-05-01 19:12
  **/
 @RunWith(SpringRunner.class)

@@ -7,7 +7,7 @@ import org.springframework.context.annotation.PropertySource;
 /**
  * 描述:  加载配置
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2017-10-27 13:26
  **/
 @Configuration

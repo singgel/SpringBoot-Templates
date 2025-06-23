@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 描述:
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2017-11-02 14:49
  **/
 @Service

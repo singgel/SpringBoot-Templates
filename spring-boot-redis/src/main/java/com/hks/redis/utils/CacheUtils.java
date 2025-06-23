@@ -22,7 +22,7 @@ import com.alibaba.fastjson.parser.Feature;
 
 /**
  * 描述: 操作redis 工具类
- * author: hekuangsheng
+ * author: singgel
  * Date: 2017/10/13 15:01
  */
 public class CacheUtils {

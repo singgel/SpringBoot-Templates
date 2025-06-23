@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 /**
  * 描述:
  *
- * @author: hekuangsheng
+ * @author: singgel
  * @create: 2017/11/7 17:02
  */
 @SpringBootApplication

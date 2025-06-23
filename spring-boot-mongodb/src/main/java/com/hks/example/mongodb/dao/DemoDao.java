@@ -5,7 +5,7 @@ import com.hks.example.mongodb.pojo.DemoEntity;
 /**
  * 描述: 提供增删改查 MongoDB 接口
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2018-02-03 16:56
  **/
 public interface DemoDao {

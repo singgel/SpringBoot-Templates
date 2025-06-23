@@ -13,7 +13,7 @@ import javax.annotation.Resource;
 /**
  * 描述: Demo DAO 实现
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2018-02-03 16:57
  **/
 @Component

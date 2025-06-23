@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 /**
  * 描述: 配置转发消息模式队列
  *
- * @author: hekuangsheng
+ * @author: singgel
  * @create: 2017/10/25 1:20
  */
 @RunWith(SpringRunner.class)

@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * 描述:配置转发消息模式队列
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2017-10-16 16:47
  **/
 @Configuration

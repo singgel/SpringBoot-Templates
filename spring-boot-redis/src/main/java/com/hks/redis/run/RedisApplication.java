@@ -10,7 +10,7 @@ import java.net.ServerSocket;
 /**
  * 描述: 启动服务
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2017-10-16 13:19
  **/
 @SpringBootApplication

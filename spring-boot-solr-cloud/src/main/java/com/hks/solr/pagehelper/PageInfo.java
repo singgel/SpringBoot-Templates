@@ -9,7 +9,7 @@ import java.util.List;
  * <p/>
  * 新增分页的多项属性，主要参考:http://bbs.csdn.net/topics/360010907
  *
- * @author hekuangsheng
+ * @author singgel
  * @version 3.3.0
  * @since 3.2.2
  */

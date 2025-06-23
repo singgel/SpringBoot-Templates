@@ -12,7 +12,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 /**
  * 描述: 广播模式或者订阅模式队列
  *
- * @author: hekuangsheng
+ * @author: singgel
  * @create: 2017/10/25 1:08
  */
 @RunWith(SpringRunner.class)

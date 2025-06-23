@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 /**
  * 描述:测试类
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2017-10-16 13:18
  **/
 @RunWith(SpringRunner.class)

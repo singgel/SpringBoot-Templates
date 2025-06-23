@@ -9,7 +9,7 @@ import org.springframework.data.solr.repository.config.EnableSolrRepositories;
 /**
  * 描述: 开启 CloudSolrClient 连接
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2017-10-18 18:15
  **/
 @Configuration

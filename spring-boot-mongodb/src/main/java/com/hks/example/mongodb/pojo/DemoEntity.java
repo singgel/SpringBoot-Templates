@@ -9,7 +9,7 @@ import java.io.Serializable;
 /**
  * 描述: DemoEntity
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2018-02-03 16:52
  **/
 @Document(collection = "demo_collection")

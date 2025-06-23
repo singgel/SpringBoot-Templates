@@ -17,7 +17,7 @@ import org.junit.Test;
 /**
  * 描述:
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2017-11-23 20:33
  **/
 @RunWith(SpringRunner.class)

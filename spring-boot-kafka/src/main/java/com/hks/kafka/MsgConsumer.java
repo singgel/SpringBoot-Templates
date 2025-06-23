@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 /**
  * 描述:消息消费者
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2017-10-16 18:33
  **/
 @Component

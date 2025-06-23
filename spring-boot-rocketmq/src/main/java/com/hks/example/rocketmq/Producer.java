@@ -11,7 +11,7 @@ import javax.annotation.PostConstruct;
 /**
  * 描述: 消息生产者
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2018-02-01 18:09
  **/
 @Component

@@ -12,7 +12,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 /**
  * 描述: 测试 kafka
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2017-10-16 18:45
  **/
 @RunWith(SpringRunner.class)

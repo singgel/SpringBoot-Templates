@@ -3,7 +3,7 @@ package com.hks.dubbo.consumer.web;
 /**
  * 描述:
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2018-07-25 17:25
  **/
 

@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 /**
  * 描述: 默认的交换机模式
  *
- * @author: hekuangsheng
+ * @author: singgel
  * @create: 2017/10/25 1:03
  */
 @RunWith(SpringRunner.class)

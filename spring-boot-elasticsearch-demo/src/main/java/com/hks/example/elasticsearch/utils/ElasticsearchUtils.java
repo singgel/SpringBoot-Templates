@@ -34,7 +34,7 @@ import java.util.*;
 /**
  * 描述: Elasticsearch 工具类
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2017-11-04 11:20
  **/
 @Component

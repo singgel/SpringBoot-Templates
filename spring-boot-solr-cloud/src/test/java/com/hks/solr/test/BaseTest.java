@@ -25,7 +25,7 @@ import java.util.List;
 /**
  * 描述: 测试 solr cloud
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2017-10-17 19:00
  **/
 @RunWith(SpringRunner.class)

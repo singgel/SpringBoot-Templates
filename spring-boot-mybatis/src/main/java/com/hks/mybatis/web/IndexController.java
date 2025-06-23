@@ -18,7 +18,7 @@ import java.util.List;
 /**
  * 描述:测试 Controller
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2017-10-20 10:32
  **/
 @RestController

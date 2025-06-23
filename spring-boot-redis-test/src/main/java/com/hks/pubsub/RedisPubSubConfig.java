@@ -15,12 +15,12 @@ import java.util.ArrayList;
 /**
  * config
  *
- * @author hekuangsheng@gmail.com
+ * @author singgel@gmail.com
  * @create 2019-05-01 19:57
  **/
 @Configuration
-@ComponentScan("net.hekuangsheng@gmail.com.tech.designpattern.*")
-@EnableRedisRepositories(basePackages = "net.hekuangsheng@gmail.com.tech.designpattern.*")
+@ComponentScan("net.singgel@gmail.com.tech.designpattern.*")
+@EnableRedisRepositories(basePackages = "net.singgel@gmail.com.tech.designpattern.*")
 public class RedisPubSubConfig {
 
     @Autowired

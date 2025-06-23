@@ -13,7 +13,7 @@ import java.util.UUID;
 /**
  * 描述: 自定义拦截器 logback requestUUID
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2017-10-30 16:15
  **/
 

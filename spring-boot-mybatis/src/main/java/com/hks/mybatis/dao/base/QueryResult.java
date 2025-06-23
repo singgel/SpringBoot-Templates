@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * 描述: 分页返回实体
- * author: hekuangsheng
+ * author: singgel
  * Date: 2017/9/8 15:05
  */
 public class QueryResult<T> implements java.io.Serializable {

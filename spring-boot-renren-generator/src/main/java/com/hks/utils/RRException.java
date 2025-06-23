@@ -3,8 +3,8 @@ package com.hks.utils;
 /**
  * 自定义异常
  * 
- * @author hekuangsheng
- * @email hekuangsheng@gmail.com
+ * @author singgel
+ * @email singgel@gmail.com
  * @date 2016年10月27日 下午10:11:27
  */
 public class RRException extends RuntimeException {

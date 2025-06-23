@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * 描述: CloudSolrClient 工具类
  *
- * @author hekuangsheng
+ * @author singgel
  * @create 2017-10-19 10:56
  **/
 public interface BaseSolr {
