@@ -4,3 +4,6 @@ target
 logs
 .mvn
 .DS_Store
+.github
+.joycode
+.vscode
