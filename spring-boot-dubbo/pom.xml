@@ -38,7 +38,7 @@
         <slf4j_version>1.7.25</slf4j_version>
         <commons-logging>1.2</commons-logging>
 
-        <org_springframework_boot>1.5.7.RELEASE</org_springframework_boot>
+        <org_springframework_boot>2.5.12</org_springframework_boot>
 
     </properties>
 
